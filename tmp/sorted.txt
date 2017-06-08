@@ -1676,6 +1676,7 @@ hubot-ssh2
 hubot-sshchat
 hubot-sshchat-cmds
 hubot-ssl-certificate-expiration-check
+hubot-ssllabs
 hubot-stache
 hubot-stackoverflow-search
 hubot-stackstorm

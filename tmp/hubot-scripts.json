@@ -1067,6 +1067,7 @@
 {"key":["hubot-scripts","hubot-sqs","Send AWS SQS messages to Hubot"],"value":1},
 {"key":["hubot-scripts","hubot-squads","Create and manage teams (squads) using Hubot."],"value":1},
 {"key":["hubot-scripts","hubot-ssh2","Perform commands over SSH."],"value":1},
+{"key":["hubot-scripts","hubot-ssllabs","A hubot script to check SSL via SSLLabs API."],"value":1},
 {"key":["hubot-scripts","hubot-stache","Hubot plugin to add a moustache to the face of an uploaded photo (Slack only)"],"value":1},
 {"key":["hubot-scripts","hubot-stackoverflow-search","Search on Stack Overflow via Hubot."],"value":1},
 {"key":["hubot-scripts","hubot-stackstorm","A hubot plugin for integrating with StackStorm event-driven infrastructure automation platform."],"value":1},

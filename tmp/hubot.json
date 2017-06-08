@@ -1655,6 +1655,7 @@
 {"key":["hubot","hubot-sshchat","hubot adapter for sshchat"],"value":1},
 {"key":["hubot","hubot-sshchat-cmds","hubot script for sshchat commands"],"value":1},
 {"key":["hubot","hubot-ssl-certificate-expiration-check","SSL expiration check"],"value":1},
+{"key":["hubot","hubot-ssllabs","A hubot script to check SSL via SSLLabs API."],"value":1},
 {"key":["hubot","hubot-stackoverflow-search","Search on Stack Overflow via Hubot."],"value":1},
 {"key":["hubot","hubot-stackstorm","A hubot plugin for integrating with StackStorm event-driven infrastructure automation platform."],"value":1},
 {"key":["hubot","hubot-stackstorm-auth","A hubot plugin for integrating with StackStorm event-driven infrastructure automation platform with role based auth."],"value":1},
