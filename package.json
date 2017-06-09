@@ -1,0 +1,16 @@
+{
+  "name": "hubot-census",
+  "description": "A hubot popupaltion observation center.",
+  "version": "0.0.1",
+  "author": "mose <mose@mose.com>",
+  "license": "MIT",
+  "keywords": [ "hubot" ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mose/hubot-census.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mose/hubot-census/issues"
+  },
+  "main": "index.js"
+}
