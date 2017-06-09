@@ -68,6 +68,7 @@ hubot-active-owner
 hubot-adapter-telegram
 hubot-advanced-help
 hubot-adventuretime
+hubot-afl
 hubot-aftership
 hubot-agario
 hubot-aha-create-idea
@@ -96,6 +97,7 @@ hubot-ansible
 hubot-answers
 hubot-aotw
 hubot-appearin
+hubot-apple-music-embed
 hubot-approval
 hubot-appstore-review-times
 hubot-appveyor
@@ -149,6 +151,7 @@ hubot-awyisser
 hubot-axosoft
 hubot-azar
 hubot-azure
+hubot-azure-alert-notifier
 hubot-azure-notifier
 hubot-azure-redis-brain
 hubot-azure-scripts
@@ -398,6 +401,7 @@ hubot-debpkg
 hubot-decide
 hubot-decides
 hubot-deezer
+hubot-define
 hubot-delay-ack
 hubot-demo-me
 hubot-deploy
@@ -648,6 +652,7 @@ hubot-github-expand
 hubot-githubfollow
 hubot-github-hipchat
 hubot-github-identity
+hubot-github-issue-label-notifier
 hubot-github-issues
 hubot-github-management
 hubot-github-mention-notifier
@@ -907,6 +912,7 @@ hubot-irc-pingall
 hubot-irish-rail
 hubot-irkit
 hubot-irof
+hubot-iss
 hubot-issues
 hubot-is-the-door-open
 hubot-istheinternetonfire
@@ -1148,6 +1154,7 @@ hubot-mpd
 hubot-mr-reminder
 hubot-mrrobot
 hubot-msgc
+hubot-mssql-brain
 hubot-ms-teams
 hubot-mta
 hubot-mubot
