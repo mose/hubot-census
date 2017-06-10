@@ -60,6 +60,7 @@ gathererbot
 generator-catops-script
 generator-hubot-script-mocha
 get-servicehubot
+hubot--loudmouth
 hubot-1210
 hubot-2048
 hubot-404
@@ -1143,6 +1144,7 @@ hubot-sumologic
 hubot-super-confluence
 hubot-superfight
 hubot-sushiyuki
+hubot-swear-jar
 hubot-sweet-ass
 hubot-swimlane
 hubot-synapse
@@ -1417,6 +1419,7 @@ hermes-hangout
 hp-manager
 hubocator
 hubot
+hubot--loudmouth
 hubot-1210
 hubot-12horoscopes
 hubot-1stdibs
@@ -3076,6 +3079,7 @@ hubot-superfight
 hubot-support
 hubot-sushiyuki
 hubot-swanson
+hubot-swear-jar
 hubot-sweet-ass
 hubot-swimlane
 hubot-symphony
@@ -3497,7 +3501,6 @@ hubot-bang-bang
 AbokyBot
 botsito
 cloudbot
-hubot--loudmouth
 hubot-as-mebot
 hubot-as-syncbot
 hubot-calamar
@@ -3513,7 +3516,6 @@ hubot-servicenow
 hubot-slack-reaction-example
 hubot-slack-reaction-spam
 hubot-spatial
-hubot-swear-jar
 npmtathicomatest
 oden-boy
 sqweelygig
