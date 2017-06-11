@@ -1259,6 +1259,7 @@
 {"key":["hubot","hubot-pingpong","Keep track of you ping pong games"],"value":1},
 {"key":["hubot","hubot-pipe-scripts","Utility scripts for hubot-pipe"],"value":1},
 {"key":["hubot","hubot-pitchfork","A snobby, music-loving bot script"],"value":1},
+{"key":["hubot","hubot-pivotal","Hubot script to get Pivotal Tracker information."],"value":1},
 {"key":["hubot","hubot-pivotal-search","Harness the full power of Pivotal Tracker's search"],"value":1},
 {"key":["hubot","hubot-pivotal-tracker","A module to enable interactions with pivotal tracker"],"value":1},
 {"key":["hubot","hubot-placeholdit","A hubot script to quickly get a placehold.it image"],"value":1},

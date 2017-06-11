@@ -2630,6 +2630,7 @@ hubot-pingdom-tools
 hubot-pingpong
 hubot-pipe-scripts
 hubot-pitchfork
+hubot-pivotal
 hubot-pivotal-search
 hubot-pivotal-tracker
 hubot-placeholdit

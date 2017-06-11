@@ -1310,6 +1310,7 @@ hubot-pingpong
 hubot-ping-thread
 hubot-pipe-scripts
 hubot-pitchfork
+hubot-pivotal
 hubot-pivotal-search
 hubot-pivotal-tracker
 hubot-placeholdit
