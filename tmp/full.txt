@@ -2486,6 +2486,7 @@ hubot-mlbot
 hubot-mobilefriendly
 hubot-mock-adapter
 hubot-mock-adapter-as-promised
+hubot-mock-adapter-v3
 hubot-mockadapter
 hubot-modcloth
 hubot-mom
@@ -3608,6 +3609,7 @@ hubot-yammer
 hubot-skype
 hubot-imessage
 hubot-mock-adapter
+hubot-mock-adapter-v3
 hubot-github-reviews
 hubot-typetalk
 hubot-auto-deploy
@@ -3642,4 +3644,5 @@ hubot-github-pr-assign-notification
 hubot-plotw
 hubot-recast-ai
 hubot-watcher
+xbot
 cfpbot

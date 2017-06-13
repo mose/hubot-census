@@ -1163,6 +1163,7 @@ hubot-mobilefriendly
 hubot-mockadapter
 hubot-mock-adapter
 hubot-mock-adapter-as-promised
+hubot-mock-adapter-v3
 hubot-modcloth
 hubot-mom
 hubot-money
@@ -2167,4 +2168,5 @@ typingspeed-bot
 voicebot
 webbybot
 webby-plugin
+xbot
 yadt-hubot

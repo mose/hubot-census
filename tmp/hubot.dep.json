@@ -1,4 +1,4 @@
-{"total_rows":1201861,"offset":521777,"rows":[
+{"total_rows":1206108,"offset":523688,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -156,6 +156,7 @@
 {"id":"hubot-skype","key":["hubot",">=2.3.4","hubot-skype"],"value":1},
 {"id":"hubot-imessage","key":["hubot",">=2.4.6","hubot-imessage"],"value":1},
 {"id":"hubot-mock-adapter","key":["hubot",">=2.5.4","hubot-mock-adapter"],"value":1},
+{"id":"hubot-mock-adapter-v3","key":["hubot",">=2.5.4","hubot-mock-adapter-v3"],"value":1},
 {"id":"hubot-github-reviews","key":["hubot",">=2.6.0","hubot-github-reviews"],"value":1},
 {"id":"hubot-typetalk","key":["hubot",">=2.6.0","hubot-typetalk"],"value":1},
 {"id":"hubot-auto-deploy","key":["hubot",">=2.7.2","hubot-auto-deploy"],"value":1},
@@ -190,5 +191,6 @@
 {"id":"hubot-plotw","key":["hubot","2.x","hubot-plotw"],"value":1},
 {"id":"hubot-recast-ai","key":["hubot","2.x","hubot-recast-ai"],"value":1},
 {"id":"hubot-watcher","key":["hubot","2.x","hubot-watcher"],"value":1},
+{"id":"xbot","key":["hubot","git://github.com/hubotio/hubot.git#73fc2bbc1c08de7722d47eacc237d2e081a29c36","xbot"],"value":1},
 {"id":"cfpbot","key":["hubot","github:cfpb/hubot","cfpbot"],"value":1}
 ]}

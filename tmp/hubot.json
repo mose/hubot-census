@@ -1115,6 +1115,7 @@
 {"key":["hubot","hubot-mobilefriendly","Use Google PageSpeed API to report on a site's mobile goodness."],"value":1},
 {"key":["hubot","hubot-mock-adapter","A mock Adapter for unit testing Hubot scripts"],"value":1},
 {"key":["hubot","hubot-mock-adapter-as-promised","A helper for hubot-mock-adapter with promise"],"value":1},
+{"key":["hubot","hubot-mock-adapter-v3","A mock Adapter for unit testing Hubot scripts"],"value":1},
 {"key":["hubot","hubot-mockadapter","A mock Adapter written in ES6(ES2015) for unit testing Hubot and Webbybot scripts"],"value":1},
 {"key":["hubot","hubot-modcloth","Some hubot scripts from ModCloth"],"value":1},
 {"key":["hubot","hubot-mom","Wow. Mom."],"value":1},
