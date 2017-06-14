@@ -1565,6 +1565,7 @@
 {"key":["hubot","hubot-simplechat","A Simplechat adapter for hubot"],"value":1},
 {"key":["hubot","hubot-simpsons","A Simpsons Quote and Image Generator for Hubots."],"value":1},
 {"key":["hubot","hubot-single-user-xmpp","Hubot XMPP adapter for single-user usage"],"value":1},
+{"key":["hubot","hubot-sismos-stream","Avisa un temblor en el momento en que sucede"],"value":1},
 {"key":["hubot","hubot-site-health-examine","This module examines sites you want to check whether these are connected successfully."],"value":1},
 {"key":["hubot","hubot-sitescope","Package allows to trigger SiteScope APIs"],"value":1},
 {"key":["hubot","hubot-situation","hubot that quotes the situation from jersey shore"],"value":1},

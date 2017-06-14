@@ -2936,6 +2936,7 @@ hubot-simple-xmpp
 hubot-simplechat
 hubot-simpsons
 hubot-single-user-xmpp
+hubot-sismos-stream
 hubot-site-health-examine
 hubot-sitescope
 hubot-situation
