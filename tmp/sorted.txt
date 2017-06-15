@@ -1444,6 +1444,7 @@ hubot-rekognition
 hubot-rekt
 hubot-relay
 hubot-relayadapter
+hubot-relevant-dilbert
 hubot-relevant-xkcd
 hubot-reload-scripts
 hubot-remember-multiline

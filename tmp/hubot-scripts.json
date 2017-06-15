@@ -907,6 +907,7 @@
 {"key":["hubot-scripts","hubot-rekognition","Give Hubot an image and it'll tell you what it sees in the image."],"value":1},
 {"key":["hubot-scripts","hubot-rekt","A hubot script that tells you to git rekt"],"value":1},
 {"key":["hubot-scripts","hubot-relay","Relay message to another chatbox via http"],"value":1},
+{"key":["hubot-scripts","hubot-relevant-dilbert","A Hubot script to find the relevant dilbert strip for a phrase"],"value":1},
 {"key":["hubot-scripts","hubot-relevant-xkcd","Find a relevant XKCD for a phrase"],"value":1},
 {"key":["hubot-scripts","hubot-remember-multiline","A hubot script to remember values with one or more lines"],"value":1},
 {"key":["hubot-scripts","hubot-remind-advanced","A Hubot script for creating quick reminders through natural language."],"value":1},

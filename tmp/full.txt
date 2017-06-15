@@ -947,6 +947,7 @@ hubot-regex-response
 hubot-rekognition
 hubot-rekt
 hubot-relay
+hubot-relevant-dilbert
 hubot-relevant-xkcd
 hubot-remember-multiline
 hubot-remind-advanced
