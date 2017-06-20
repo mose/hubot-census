@@ -1449,6 +1449,7 @@
 {"key":["hubot","hubot-room-select","A hubot script that allows for in-app configuration of room monitoring"],"value":1},
 {"key":["hubot","hubot-ross","A hubot script to fill your life with joy and happy trees."],"value":1},
 {"key":["hubot","hubot-route53","A Hubot script for interacting with AWS Route53"],"value":1},
+{"key":["hubot","hubot-rpc-gen","Generate Chatops RPC compatible servers for Hubot and more"],"value":1},
 {"key":["hubot","hubot-rss-alerts","A hubot script to announce RSS feed items in a channel."],"value":1},
 {"key":["hubot","hubot-rss-reader","Hubot RSS Reader"],"value":1},
 {"key":["hubot","hubot-rss-reader-fixed","Hubot RSS Reader"],"value":1},

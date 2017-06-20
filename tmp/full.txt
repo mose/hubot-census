@@ -2821,6 +2821,7 @@ hubot-roman-numerals
 hubot-room-select
 hubot-ross
 hubot-route53
+hubot-rpc-gen
 hubot-rss-alerts
 hubot-rss-reader
 hubot-rss-reader-fixed
