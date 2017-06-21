@@ -1980,7 +1980,7 @@
 {"key":["hubot","hubot-zatsudan","[![wercker status](https://app.wercker.com/status/f1ff4fed86b2578b67ef19260384af8d/s/master \"wercker status\")](https://app.wercker.com/project/bykey/f1ff4fed86b2578b67ef19260384af8d) # hubot-zatsudan"],"value":1},
 {"key":["hubot","hubot-zd-releases","Zen Desk integration to get today's TLRG releases"],"value":1},
 {"key":["hubot","hubot-zendesk","Queries Zendesk for information about support tickets"],"value":1},
-{"key":["hubot","hubot-zendesk-enhanced","Queries and updates Zendesk support tickets"],"value":1},
+{"key":["hubot","hubot-zendesk-enhanced","Allows hubot to query and update Zendesk support tickets"],"value":1},
 {"key":["hubot","hubot-zenoss","Hubot talks to Zenoss"],"value":1},
 {"key":["hubot","hubot-zerocater","A Hubot plugin to tell you what ZeroCater is catering to your office today."],"value":1},
 {"key":["hubot","hubot-zerocater-lunch","A Hubot script to find out what's for lunch"],"value":1},
