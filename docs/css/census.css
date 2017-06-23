@@ -1,9 +1,9 @@
-* {
-
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, 
+pre, form, fieldset, input, textarea, p, blockquote, th, td { 
+  padding: 0;
+  margin: 0;
 }
 body {
-  margin: 0;
-  padding: 0;
   font-family: sans serif;
 }
 a {
@@ -36,5 +36,5 @@ a {
   background-color: #123;
 }
 .meat {
-  padding: 10px 20px;
+  padding: 20px;
 }
