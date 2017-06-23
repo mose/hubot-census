@@ -1,0 +1,40 @@
+* {
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans serif;
+}
+a {
+  text-decoration: none;
+}
+.nav {
+  padding: 10px 20px;
+  background-color: #369;
+  color: #fff;
+}
+.nav h1 {
+  display: inline;
+}
+.nav #navitems {
+  float: right;
+}
+.nav nav {
+  margin: 10px 0;
+}
+.nav nav a {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #246;
+}
+.nav nav a.active {
+  background-color: #fce;
+}
+.nav nav a:hover {
+  background-color: #123;
+}
+.meat {
+  padding: 10px 20px;
+}

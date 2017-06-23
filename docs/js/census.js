@@ -1,4 +1,4 @@
-var demo = new Vue({
+new Vue({
   el: '#navitems',
   data: {
     active: 'home'
