@@ -702,7 +702,6 @@ hubot-gitlab-ci
 hubot-gitlab-ci-webhook
 hubot-gitlab-hooks
 hubot-gitsy
-hubot-gitter
 hubot-gitter2
 hubot-gitter2-nemaniarjun
 hubot-gitter2-patched
@@ -1493,6 +1492,7 @@ hubot-robotstuff
 hubot-robowhois
 hubot-rocketchat
 hubot-rocketchat-announcement
+hubot-rocketchat-attachment
 hubot-rocketchat-default-response
 hubot-rocketchat-gitlab
 hubot-rocketchat-ignore-direct
