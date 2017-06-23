@@ -17,7 +17,7 @@ a {
 .nav h1 {
   display: inline;
 }
-.nav #navitems {
+.nav .links {
   float: right;
 }
 .nav nav {

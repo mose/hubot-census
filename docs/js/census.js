@@ -1,5 +1,5 @@
 new Vue({
-  el: '#navitems',
+  el: '#vue',
   data: {
     active: 'home'
   },
