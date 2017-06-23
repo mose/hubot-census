@@ -1,6 +1,6 @@
 #!/bin/sh
 
-STORE_DIR="tmp"
+STORE_DIR="docs/data"
 PACKAGES="hubot-script hubot-scripts hubot"
 DEPENDS="hubot"
 

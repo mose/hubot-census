@@ -1,3 +1,4 @@
+/* quick reset */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, 
 pre, form, fieldset, input, textarea, p, blockquote, th, td { 
   padding: 0;
@@ -6,9 +7,14 @@ pre, form, fieldset, input, textarea, p, blockquote, th, td {
 body {
   font-family: sans serif;
 }
-a {
+img {
+  border: 0;
+}
+:link, :visited {
   text-decoration: none;
 }
+
+/* nav */
 .nav {
   padding: 10px 20px;
   background-color: #369;
@@ -35,6 +41,8 @@ a {
 .nav nav a:hover {
   background-color: #123;
 }
+
+/* content */
 .meat {
   padding: 20px;
 }
