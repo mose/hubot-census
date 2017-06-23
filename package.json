@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/mose/hubot-census/issues"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
 }
