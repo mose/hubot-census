@@ -955,6 +955,7 @@ hubot-jenkins-notify-statuschanges
 hubot-jenkins-slack
 hubot-jenkins-userauth
 hubot-jianliao
+hubotjira
 hubot-jira
 hubot-jirabot
 hubot-jira-bot
@@ -1576,6 +1577,7 @@ hubot-semaphoreapp
 hubot-semaphore-deploy
 hubot-sendgrid
 hubot-sensors
+hubot-sensu
 hubot-sentiment
 hubot-sentimental
 hubot-sentimental-plus

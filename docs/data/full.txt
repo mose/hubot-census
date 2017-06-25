@@ -1026,6 +1026,7 @@ hubot-semaphore-deploy
 hubot-semaphoreapp
 hubot-sendgrid
 hubot-sensors
+hubot-sensu
 hubot-sentiment
 hubot-sentry
 hubot-sentry-extra
@@ -1330,6 +1331,7 @@ hubot-zet
 hubot-zhihu
 hubot-zhihu-daily
 hubot-zmachine
+hubotjira
 huburn
 icinga-hubot-script
 jobot-cah
@@ -2889,6 +2891,7 @@ hubot-semaphore-deploy
 hubot-semaphoreapp
 hubot-sendgrid
 hubot-sensors
+hubot-sensu
 hubot-sentiment
 hubot-sentimental
 hubot-sentimental-plus
@@ -3369,6 +3372,7 @@ hubot.js
 hubot.js-teste-robson
 hubotbucket
 hubotfy
+hubotjira
 huburn
 huchat-tools
 hugbot-karma
