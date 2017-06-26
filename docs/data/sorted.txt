@@ -261,6 +261,7 @@ hubot-bukkit
 hubot-bunny
 hubot-buscandriu
 hubot-business-cat
+hubot-bustabit
 hubot-bw
 hubot-cachet
 hubot-cachethq
@@ -811,6 +812,7 @@ hubot-hipchat-andrewmccall
 hubot-hipchat-beta
 hubot-hipchat-emoticons
 hubot-hipchat-hs
+hubot-hipchat-latest
 hubot-hipchat-nuts
 hubot-hipchat-reboot
 hubot-hipchat-trello-retrospectives
