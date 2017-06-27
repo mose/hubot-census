@@ -58,14 +58,18 @@ const getDep = function(key, refresh) {
   });
 }
 
-const getPackage = function(pack) {
+const getPackage = function(pack, refresh) {
   const filename = storedir + 'packages/' + pack + '.json';
   return new Promise( (res, err) => {
-    const uri = 'https://skimdb.npmjs.com/registry/' + qs.escape(pack);
-    request(uri, function(error, response, body) {
-      fs.writeFileSync(filename, body);
-      res(JSON.parse(body));
-    });
+    if (refresh) {
+      const uri = 'https://skimdb.npmjs.com/registry/' + qs.escape(pack);
+      request(uri, function(error, response, body) {
+        fs.writeFileSync(filename, body);
+        res(JSON.parse(body));
+      });
+    } else {
+      res(JSON.parse(fs.readFileSync(filename, 'utf8')));
+    }
   });
 }
 
@@ -79,10 +83,30 @@ Promise.all([
     return i == a.indexOf(el);
   });
 }).then((data) => {
-  const processed = data.map(it => getPackage(it));
+  const processed = data.map(it => getPackage(it, refresh));
   return Promise.all(processed);
 }).then((data) => {
-  console.log(data.length);
+  const timestamps = data.map(function(val) {
+    const created = val.time.created;
+    const modified = val.time.modified;
+    const releases = Object.keys(val.time).slice(2);
+    return { 
+      id: val.name,
+      created: created,
+      modified: modified,
+      releases: releases.map(i => val.time[i])
+    };
+  });
+  return new Promise( (res, err) => {
+    try {
+      fs.writeFileSync(storedir + 'all_dates.json', JSON.stringify(timestamps, null, '  '));
+      res('ok');
+    } catch (e) {
+      err('' + e);
+    }
+  });
+}).then((data) => {
+  console.log(data);
 }).catch((err) => {
   console.log("Error ");
   console.log(err);
