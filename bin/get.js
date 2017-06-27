@@ -6,8 +6,8 @@ const util = require('util');
 const path = require('path');
 const fs = require("fs");
 
-// const storedir = 'docs/data/';
-const storedir = 'tmp/';
+const storedir = 'docs/data/';
+// const storedir = 'tmp/';
 const refresh = (process.argv[2] === 'refresh');
 
 const getList = function (key, refresh) {
