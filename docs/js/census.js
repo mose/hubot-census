@@ -1,8 +1,11 @@
-var svg = d3.select("svg"),
-    margin = {top: 20, right: 80, bottom: 30, left: 50},
-    width = svg.attr("width") - margin.left - margin.right,
+var svg = d3.select("svg");
+
+var margin = {top: 20, right: 80, bottom: 30, left: 50},
+    width = window.innerWidth - margin.left - margin.right,
     height = svg.attr("height") - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+console.log(window.innerWidth);
 
 var parseTime = d3.timeParse("%Y%m%d");
 
