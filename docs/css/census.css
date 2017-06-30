@@ -23,6 +23,9 @@ img {
 .nav h1 {
   display: inline;
 }
+.nav h1 a {
+  color: #fff;
+}
 .nav .links {
   float: right;
 }
@@ -34,15 +37,38 @@ img {
   font-weight: bold;
   padding: 10px 20px;
   background-color: #246;
+  border-radius: 2em;
 }
 .nav nav a.active {
-  background-color: #fce;
+  position: relative;
+  background-color: #fff;
+  color: #369;
+}
+.nav nav a.active:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  width: 0;
+  right: 0;
+  width: 50%;
+  margin: 0 -10px;
+  height: 10px;
+  border-left: 8px solid #fff;
 }
 .nav nav a:hover {
   background-color: #123;
+}
+.nav nav a.active:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 /* content */
 .meat {
   padding: 20px;
+}
+.chart-container {
+  position: relative;
+  height: 100px;
+  width: 100%;
 }

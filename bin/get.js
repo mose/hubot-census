@@ -2,6 +2,7 @@
 
 const request = require("request");
 const qs = require('querystring');
+const moment = require('moment');
 const util = require('util');
 const path = require('path');
 const fs = require("fs");
@@ -97,9 +98,43 @@ Promise.all([
       releases: releases.map(i => val.time[i])
     };
   });
+  const bydates = timestamps.reduce(function(acc, el) {
+    try {
+      const created = moment(el.created).format('YYYYMMDD');
+      if (!acc[created])
+        acc[created] = { created: 0, modified: 0, releases: 0 };
+      acc[created].created += 1;
+    } catch (e) {
+      err('' + e);
+    }
+    try {
+      const modified = moment(el.modified).format('YYYYMMDD');
+      if (!acc[modified])
+        acc[modified] = { created: 0, modified: 0, releases: 0 };
+      acc[modified].modified += 1;
+    } catch (e) {
+      err('' + e);
+    }
+    for (var rel in el.releases) {
+      try {
+        let releases = moment(el.releases[rel]).format('YYYYMMDD');
+        if (!acc[releases])
+          acc[releases] = { created: 0, modified: 0, releases: 0 };
+        acc[releases].releases += 1;
+      } catch (e) {
+        err('' + e);
+      }
+    }
+    return acc;
+  }, {});
+  let datetsv = 'date\tcreated\tmodified\treleased\n';
+  for (var day in bydates) {
+    datetsv += day + '\t' + bydates[day].created + '\t' + bydates[day].modified + '\t' + bydates[day].releases + '\n';
+  }
   return new Promise( (res, err) => {
     try {
-      fs.writeFileSync(storedir + 'all_dates.json', JSON.stringify(timestamps, null, '  '));
+      fs.writeFileSync(storedir + 'all_dates.json', JSON.stringify(bydates, null, '  '));
+      fs.writeFileSync(storedir + 'all_dates.tsv', datetsv);
       res('ok');
     } catch (e) {
       err('' + e);
