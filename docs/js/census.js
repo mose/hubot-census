@@ -23,13 +23,16 @@ var render = function(svg, datasource, timeformat, verticalLegend, filter) {
     var operations = data.columns.slice(1).map(function(id) {
       return {
         id: id,
-        values: data.map(function(d) {
+        values: data.filter(filter).map(function(d) {
           return {date: d.date, operations: d[id]};
         })
       };
     });
 
-    x.domain(d3.extent(data, function(d) { return d.date; }));
+    console.log(datasource);
+    console.log(data);
+
+    x.domain(d3.extent(data.filter(filter), function(d) { return d.date; }));
 
     y.domain([
       d3.min(operations, function(c) { return d3.min(c.values, function(d) { return d.operations; }); }),
@@ -86,6 +89,8 @@ render(svgmonth, "data/all_months.tsv", "%Y%m", "Operations per month", function
 });
 
 var svgmonth = d3.select("svg.byday");
+var fromDate = new Date();
+fromDate.setMonth(fromDate.getMonth() - 2);
 render(svgmonth, "data/all_dates.tsv", "%Y%m%d", "Operations per day", function(d) {
-  return true;
+  return (d.date.getTime() > fromDate.getTime());
 });
