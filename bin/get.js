@@ -127,14 +127,48 @@ Promise.all([
     }
     return acc;
   }, {});
+  const bymonths = timestamps.reduce(function(acc, el) {
+    try {
+      const created = moment(el.created).format('YYYYMM');
+      if (!acc[created])
+        acc[created] = { created: 0, modified: 0, releases: 0 };
+      acc[created].created += 1;
+    } catch (e) {
+      err('' + e);
+    }
+    try {
+      const modified = moment(el.modified).format('YYYYMM');
+      if (!acc[modified])
+        acc[modified] = { created: 0, modified: 0, releases: 0 };
+      acc[modified].modified += 1;
+    } catch (e) {
+      err('' + e);
+    }
+    for (var rel in el.releases) {
+      try {
+        let releases = moment(el.releases[rel]).format('YYYYMM');
+        if (!acc[releases])
+          acc[releases] = { created: 0, modified: 0, releases: 0 };
+        acc[releases].releases += 1;
+      } catch (e) {
+        err('' + e);
+      }
+    }
+    return acc;
+  }, {});
   let datetsv = 'date\tcreated\tmodified\treleased\n';
   for (var day in bydates) {
     datetsv += day + '\t' + bydates[day].created + '\t' + bydates[day].modified + '\t' + bydates[day].releases + '\n';
+  }
+  let monthstsv = 'date\tcreated\tmodified\treleased\n';
+  for (var month in bymonths) {
+    monthstsv += month + '\t' + bymonths[month].created + '\t' + bymonths[month].modified + '\t' + bymonths[month].releases + '\n';
   }
   return new Promise( (res, err) => {
     try {
       fs.writeFileSync(storedir + 'all_dates.json', JSON.stringify(bydates, null, '  '));
       fs.writeFileSync(storedir + 'all_dates.tsv', datetsv);
+      fs.writeFileSync(storedir + 'all_months.tsv', monthstsv);
       res('ok');
     } catch (e) {
       err('' + e);

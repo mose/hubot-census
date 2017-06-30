@@ -1,13 +1,13 @@
 var svg = d3.select("svg");
 
-var margin = {top: 20, right: 80, bottom: 30, left: 50},
+var margin = {top: 20, right: 120, bottom: 30, left: 30},
     width = window.innerWidth - margin.left - margin.right,
     height = svg.attr("height") - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 console.log(window.innerWidth);
 
-var parseTime = d3.timeParse("%Y%m%d");
+var parseTime = d3.timeParse("%Y%m");
 
 var x = d3.scaleTime().range([0, width]),
     y = d3.scaleLinear().range([height, 0]),
@@ -18,7 +18,7 @@ var line = d3.line()
     .x(function(d) { return x(d.date); })
     .y(function(d) { return y(d.operations); });
 
-d3.tsv("data/all_dates.tsv", type, function(error, data) {
+d3.tsv("data/all_months.tsv", type, function(error, data) {
   if (error) throw error;
 
   var operations = data.columns.slice(1).map(function(id) {
@@ -42,6 +42,9 @@ d3.tsv("data/all_dates.tsv", type, function(error, data) {
   g.append("g")
     .attr("class", "axis axis--x")
     .attr("transform", "translate(0," + height + ")")
+    .attr("x", 6)
+    .attr("dx", "0.71em")
+    .attr("fill", "#000")
     .call(d3.axisBottom(x));
 
   g.append("g")
@@ -52,7 +55,7 @@ d3.tsv("data/all_dates.tsv", type, function(error, data) {
     .attr("y", 6)
     .attr("dy", "0.71em")
     .attr("fill", "#000")
-    .text("Operations");
+    .text("Operations per month");
 
   var op = g.selectAll(".operations")
     .data(operations)
@@ -69,7 +72,7 @@ d3.tsv("data/all_dates.tsv", type, function(error, data) {
     .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.operations) + ")"; })
     .attr("x", 3)
     .attr("dy", "0.35em")
-    .style("font", "10px sans-serif")
+    .style("font", "12px sans-serif")
     .text(function(d) { return d.id; });
 });
 
