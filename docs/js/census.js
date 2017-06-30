@@ -1,5 +1,5 @@
 
-var render = function(svg, datasource, timeformat, filter) {
+var render = function(svg, datasource, timeformat, verticalLegend, filter) {
 
   var margin = {top: 20, right: 120, bottom: 30, left: 30},
       width = window.innerWidth - margin.left - margin.right,
@@ -51,7 +51,7 @@ var render = function(svg, datasource, timeformat, filter) {
       .attr("y", 6)
       .attr("dy", "0.71em")
       .attr("fill", "#000")
-      .text("Operations per month");
+      .text(verticalLegend);
 
     var op = g.selectAll(".operations")
       .data(operations)
@@ -81,6 +81,11 @@ var render = function(svg, datasource, timeformat, filter) {
 };
 
 var svgmonth = d3.select("svg.bymonth");
-render(svgmonth, "data/all_months.tsv", "%Y%m", function(d) {
+render(svgmonth, "data/all_months.tsv", "%Y%m", "Operations per month", function(d) {
+  return true;
+});
+
+var svgmonth = d3.select("svg.byday");
+render(svgmonth, "data/all_dates.tsv", "%Y%m%d", "Operations per day", function(d) {
   return true;
 });

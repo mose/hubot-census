@@ -75,7 +75,6 @@ img {
 
 /* graph */
 .axis--x path {
-  display: none;
 }
 
 .line {
