@@ -29,9 +29,6 @@ var render = function(svg, datasource, timeformat, verticalLegend, filter) {
       };
     });
 
-    console.log(datasource);
-    console.log(data);
-
     x.domain(d3.extent(data.filter(filter), function(d) { return d.date; }));
 
     y.domain([
