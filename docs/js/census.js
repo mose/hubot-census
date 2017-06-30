@@ -1,7 +1,7 @@
 
 var render = function(svg, datasource, timeformat, verticalLegend, filter) {
 
-  var margin = {top: 20, right: 120, bottom: 30, left: 30},
+  var margin = {top: 20, right: 10, bottom: 30, left: 30},
       width = window.innerWidth - margin.left - margin.right,
       height = svg.attr("height") - margin.top - margin.bottom,
       g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -63,13 +63,15 @@ var render = function(svg, datasource, timeformat, verticalLegend, filter) {
       .attr("d", function(d) { return line(d.values); })
       .style("stroke", function(d) { return z(d.id); });
 
+    console.log();
     op.append("text")
       .datum(function(d) { return {id: d.id, value: d.values[d.values.length - 1]}; })
-      .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.operations) + ")"; })
-      .attr("x", 3)
-      .attr("dy", "0.35em")
+      .attr("transform", function(d) { return "translate(30," + (40 - (operations.map(function(i) { return i.id; }).indexOf(d.id) * 15)) + ")"; })
       .style("font", "12px sans-serif")
-      .text(function(d) { return d.id; });
+      .style("font-weight", "normal")
+      .style("fill", function(d) { return z(d.id); })
+      .text(function(d) { return d.id; })
+
   });
 
   function type(d, _, columns) {
