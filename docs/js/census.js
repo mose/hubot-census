@@ -51,19 +51,19 @@ d3.tsv("data/all_dates.tsv", type, function(error, data) {
     .attr("fill", "#000")
     .text("Operations");
 
-  var operations = g.selectAll(".operations")
-    .data(cities)
+  var op = g.selectAll(".operations")
+    .data(operations)
     .enter().append("g")
     .attr("class", "operations");
 
-  operations.append("path")
+  op.append("path")
     .attr("class", "line")
     .attr("d", function(d) { return line(d.values); })
     .style("stroke", function(d) { return z(d.id); });
 
-  operations.append("text")
+  op.append("text")
     .datum(function(d) { return {id: d.id, value: d.values[d.values.length - 1]}; })
-    .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.operations) + ")"; })
+    .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.temperature) + ")"; })
     .attr("x", 3)
     .attr("dy", "0.35em")
     .style("font", "10px sans-serif")
