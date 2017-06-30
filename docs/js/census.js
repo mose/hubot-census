@@ -13,7 +13,7 @@ var x = d3.scaleTime().range([0, width]),
 var line = d3.line()
     .curve(d3.curveBasis)
     .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.temperature); });
+    .y(function(d) { return y(d.operations); });
 
 d3.tsv("data/all_dates.tsv", type, function(error, data) {
   if (error) throw error;
@@ -63,7 +63,7 @@ d3.tsv("data/all_dates.tsv", type, function(error, data) {
 
   op.append("text")
     .datum(function(d) { return {id: d.id, value: d.values[d.values.length - 1]}; })
-    .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.temperature) + ")"; })
+    .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.operations) + ")"; })
     .attr("x", 3)
     .attr("dy", "0.35em")
     .style("font", "10px sans-serif")

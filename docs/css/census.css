@@ -72,3 +72,14 @@ img {
   height: 100px;
   width: 100%;
 }
+
+/* graph */
+.axis--x path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
