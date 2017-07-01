@@ -15,7 +15,22 @@ img {
 }
 
 h2 {
-  margin-top: 1em;
+  margin-top: .5em;
+}
+/* head */
+.badge {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: .8em;
+  margin-left: 30px;
+  border: 1px solid #47a;
+  padding: 2px 10px;
+}
+.badge span {
+  font-weight: normal;
+  font-size: .6em;
 }
 /* nav */
 .nav {
@@ -126,6 +141,7 @@ h2 {
   border-bottom: 1px solid #ccc;
 }
 .package .description {
+  font-size: .9em;
   color: #999;
 }
 .package:hover {
