@@ -108,10 +108,19 @@ h2 {
 .package .date {
   position: absolute;
   top: 0;
-  background-color: #666;
-  color: #fff;
+  color: #666;
   right: 0;
   left: 0;
   padding: 1px 5px;
   font-size: 0.8em;
+  border-bottom: 1px solid #ccc;
+}
+.package .description {
+  color: #999;
+}
+.package:hover {
+  border-color: #000;
+}
+.package:hover .description {
+  color: #000;
 }

@@ -8,7 +8,7 @@ const showRecent = function(selector, data) {
     divlist.className = "package";
     div.appendChild(divlist);
     divlist.insertAdjacentHTML("beforeend", "<h3>" + data[el].name + ' <span>' + data[el]["dist-tags"].latest + '</span></h3>\n');
-    divlist.insertAdjacentHTML("beforeend", "<div>" + data[el].description + '</div>\n');
+    divlist.insertAdjacentHTML("beforeend", "<div class=\"description\">" + data[el].description + '</div>\n');
     divlist.insertAdjacentHTML("beforeend", "<div class=\"date\">" + data[el].time[data[el]["dist-tags"].latest] + '</div>\n');
   }
 }
