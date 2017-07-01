@@ -117,7 +117,7 @@ h2 {
 .package {
   display: inline-block;
   width: 330px;
-  border: 1px solid #c60;
+  border: 1px solid #d93;
   margin: 5px;
   padding: 2px 5px;
   position: relative;
@@ -148,11 +148,11 @@ h2 {
 .package .date {
   position: absolute;
   top: 0;
-  color: #c60;
+  color: #d93;
   left: 0;
   padding: 1px 50px 1px 5px;
   font-size: 0.8em;
-  border-bottom: 1px solid #c60;
+  border-bottom: 1px solid #d93;
 }
 .package .description {
   font-size: .9em;
