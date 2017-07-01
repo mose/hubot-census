@@ -96,6 +96,17 @@ h2 {
   position: relative;
   vertical-align: top;
 }
+.package .icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.package .icon svg {
+  fill: #666;
+}
+.package .icon:hover svg {
+  fill: #000;
+}
 .package h3 {
   margin-top: 1em;
   font-size: 1em;
@@ -109,9 +120,8 @@ h2 {
   position: absolute;
   top: 0;
   color: #666;
-  right: 0;
   left: 0;
-  padding: 1px 5px;
+  padding: 1px 50px 1px 5px;
   font-size: 0.8em;
   border-bottom: 1px solid #ccc;
 }
