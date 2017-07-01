@@ -75,7 +75,7 @@ const getPackage = function(pack, refresh) {
 }
 
 // const makeAuthors = function(data) {
-  
+
 // }
 
 Promise.all([
@@ -102,6 +102,7 @@ Promise.all([
       id: val.name,
       created: created,
       modified: modified,
+      latest: val.time[val["dist-tags"].latest],
       releases: releases.map(i => val.time[i])
     };
   });

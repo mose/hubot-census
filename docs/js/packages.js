@@ -3,12 +3,14 @@
 const showRecent = function(selector, data) {
   const div = document.querySelector(selector);
   for (var el in data) {
+    console.log(data[el]);
     const divlist = document.createElement('div');
     divlist.className = "package";
     div.appendChild(divlist);
     divlist.insertAdjacentHTML("beforeend", "<h3>" + data[el].name + ' <span>' + data[el]["dist-tags"].latest + '</span></h3>\n');
     divlist.insertAdjacentHTML("beforeend", "<div class=\"description\">" + data[el].description + '</div>\n');
-    divlist.insertAdjacentHTML("beforeend", "<div class=\"date\">" + data[el].time[data[el]["dist-tags"].latest] + '</div>\n');
+    const releasedate = new Date(data[el].time[data[el]["dist-tags"].latest]);
+    divlist.insertAdjacentHTML("beforeend", "<div class=\"date\">" + releasedate.toLocaleDateString() + '</div>\n');
   }
 }
 
@@ -32,7 +34,7 @@ fetch("data/all_packages.json").then(function(response) {
   const lastDay = today.setDate(today.getDate() - 1);
   const lastWeek = today.setDate(today.getDate() - 7);
   payload = packages.reduce(function(acc, el) {
-    let lastRelease = el.releases[el.releases.length - 1];
+    let lastRelease = el.latest;
     let lastReleaseDate = new Date(lastRelease);
     if (lastReleaseDate.getTime() > lastDay) {
       acc.today.push({ id: el.id, date: lastRelease});
