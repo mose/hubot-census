@@ -166,6 +166,7 @@ Promise.all([
   }
   return new Promise( (res, err) => {
     try {
+      fs.writeFileSync(storedir + 'all_packages.json', JSON.stringify(timestamps, null, '  '));
       fs.writeFileSync(storedir + 'all_dates.json', JSON.stringify(bydates, null, '  '));
       fs.writeFileSync(storedir + 'all_dates.tsv', datetsv);
       fs.writeFileSync(storedir + 'all_months.tsv', monthstsv);
