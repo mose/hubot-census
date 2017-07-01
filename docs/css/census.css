@@ -109,6 +109,11 @@ h2 {
 }
 
 /* packages */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
 .package {
   display: inline-block;
   width: 330px;
