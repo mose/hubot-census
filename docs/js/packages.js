@@ -1,7 +1,6 @@
 "use strict";
 
 const showRecent = function(selector, data) {
-  console.log(data);
   const div = document.querySelector(selector);
   for (var el in data) {
     const divlist = document.createElement('div');

@@ -74,6 +74,10 @@ const getPackage = function(pack, refresh) {
   });
 }
 
+// const makeAuthors = function(data) {
+  
+// }
+
 Promise.all([
   getList('hubot', refresh),
   getDep('hubot', refresh)
@@ -87,6 +91,9 @@ Promise.all([
   const processed = data.map(it => getPackage(it, refresh));
   return Promise.all(processed);
 }).then((data) => {
+  // const authors = data.reduce(function(acc, el) {
+  //   return acc;
+  // }, []);
   const timestamps = data.map(function(val) {
     const created = val.time.created;
     const modified = val.time.modified;
