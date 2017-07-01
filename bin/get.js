@@ -184,7 +184,8 @@ Promise.all([
     }
   });
 }).then((data) => {
-  console.log(data);
+  const stats = { updated: new Date().toJSON() };
+  fs.writeFileSync(storedir + 'stats.json', JSON.stringify(stats, null, '  '));
 }).catch((err) => {
   console.log("Error ");
   console.log(err);

@@ -89,6 +89,11 @@ h2 {
 }
 
 /* content */
+#updated {
+  color: #666;
+  font-size: .8em;
+  float: right;
+}
 .meat {
   padding: 20px;
 }

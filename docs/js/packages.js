@@ -19,13 +19,26 @@ const showRecent = function(selector, data) {
   }
 }
 
-const showstats = function(nb) {
+const shownb = function(nb) {
   const div = document.querySelector("div#packagesnb");
   div.insertAdjacentHTML("beforeend", nb + '<br><span>packages</span>');
+}
+const showstats = function(nb) {
+  const div = document.querySelector("div#updated");
+  div.insertAdjacentHTML("beforeend", 'Last collected on ' + new Date(nb).toLocaleString());
 }
 
 const getPackage = function(pack) {
   return fetch('data/packages/' + pack + '.json').then(function(response) {
+    if (response.ok) {
+      return response.json();
+    }
+    throw new Error('Network response was not ok.');
+  });
+}
+
+const getStats = function() {
+  return fetch('data/stats.json').then(function(response) {
     if (response.ok) {
       return response.json();
     }
@@ -41,7 +54,7 @@ fetch("data/all_packages.json").then(function(response) {
   throw new Error('Network response was not ok.');
 }).then(function(packages) {
   const packagesNb = packages.length;
-  showstats(packagesNb);
+  shownb(packagesNb);
   const today = new Date();
   const lastDay = today.setDate(today.getDate() - 1);
   const lastWeek = today.setDate(today.getDate() - 7);
@@ -71,6 +84,9 @@ fetch("data/all_packages.json").then(function(response) {
   return Promise.all(payload.pastWeek);
 }).then(function(data) {
   showRecent("div.pastweek", data);
+  return getStats();
+}).then(function(data) {
+  showstats(data.updated);
 }).catch(function(error) {
   console.log('Error: ' + error.message);
 });
