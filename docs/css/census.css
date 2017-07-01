@@ -17,7 +17,7 @@ img {
 h2 {
   margin-top: .5em;
   font-size: 1.4em;
-  color: #a30;
+  color: #d93;
 }
 /* head */
 .badge {
@@ -156,7 +156,7 @@ h2 {
 }
 .package .description {
   font-size: .9em;
-  color: #a62;
+  color: #d93;
 }
 .package:hover {
   border-color: #000;
