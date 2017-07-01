@@ -3,7 +3,7 @@
 const showRecent = function(selector, data) {
   const div = document.querySelector(selector);
   for (var el in data) {
-    console.log(data[el]);
+    // console.log(data[el]);
     const divlist = document.createElement('div');
     divlist.className = "package";
     div.appendChild(divlist);
