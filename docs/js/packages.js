@@ -5,17 +5,17 @@ const githubicon = '<svg viewBox="0 0 16 16" version="1.1" width="16" height="16
 const showRecent = function(selector, data) {
   const div = document.querySelector(selector);
   for (var el in data) {
-    console.log(data[el]);
+    // console.log(data[el]);
     const divlist = document.createElement('div');
     divlist.className = "package";
     div.appendChild(divlist);
-    divlist.insertAdjacentHTML("beforeend", "<h3>" + data[el].name + ' <span>' + data[el]["dist-tags"].latest + '</span></h3>\n');
+    divlist.insertAdjacentHTML("beforeend", "<h3>" + data[el].name + ' <span>' + data[el]["dist-tags"].latest + '</span></h3>');
     if (data[el].homepage) {
-      divlist.insertAdjacentHTML("beforeend", '<a href="' + data[el].homepage + '" class="icon" target="_new">' + githubicon + '</a>\n');
+      divlist.insertAdjacentHTML("beforeend", '<a href="' + data[el].homepage + '" class="icon" target="_new">' + githubicon + '</a>');
     }
-    divlist.insertAdjacentHTML("beforeend", "<div class=\"description\">" + data[el].description + '</div>\n');
+    divlist.insertAdjacentHTML("beforeend", "<div class=\"description\">" + data[el].description + '</div>');
     const releasedate = new Date(data[el].time[data[el]["dist-tags"].latest]);
-    divlist.insertAdjacentHTML("beforeend", "<div class=\"date\">" + releasedate.toLocaleDateString() + '</div>\n');
+    divlist.insertAdjacentHTML("beforeend", "<div class=\"date\">" + releasedate.toLocaleDateString() + '</div>');
   }
 }
 
