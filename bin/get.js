@@ -74,9 +74,32 @@ const getPackage = function(pack, refresh) {
   });
 }
 
-// const makeAuthors = function(data) {
-
-// }
+const makeAuthors = function(data) {
+  let names = []
+  if (data.author instanceof Object) {
+    if (data.author.name) {
+      names.push(data.author.name);
+    } else if (data.author.email) {
+      names.push(data.author.email);
+    }
+  } else {
+    names.push(data.author);
+  }
+  if (data.maintainers) {
+    for (var i in data.maintainers) {
+      if (data.maintainers[i] instanceof Object) {
+        if (data.maintainers[i].name) {
+          names.push(data.maintainers[i].name);
+        } else if (data.maintainers[i].email) {
+          names.push(data.maintainers[i].email);
+        }
+      } else {
+        names.push(data.maintainers[i]);
+      }
+    }
+  }
+  return names;
+}
 
 Promise.all([
   getList('hubot', refresh),
@@ -91,9 +114,11 @@ Promise.all([
   const processed = data.map(it => getPackage(it, refresh));
   return Promise.all(processed);
 }).then((data) => {
-  // const authors = data.reduce(function(acc, el) {
-  //   return acc;
-  // }, []);
+  const authorslist = data.reduce(function(acc, el) {
+    acc = acc.concat(makeAuthors(el));
+    return acc;
+  }, []);
+  const authors = authorslist.filter((v, i, a) => a.indexOf(v) === i);;
   const timestamps = data.map(function(val) {
     const created = val.time.created;
     const modified = val.time.modified;
@@ -173,19 +198,21 @@ Promise.all([
     monthstsv += month + '\t' + bymonths[month].created + '\t' + bymonths[month].modified + '\t' + bymonths[month].releases + '\n';
   }
   return new Promise( (res, err) => {
+    const stats = { 
+      updated: new Date().toJSON(),
+      contributors: authors.length
+    };
     try {
       fs.writeFileSync(storedir + 'all_packages.json', JSON.stringify(timestamps, null, '  '));
       fs.writeFileSync(storedir + 'all_dates.json', JSON.stringify(bydates, null, '  '));
       fs.writeFileSync(storedir + 'all_dates.tsv', datetsv);
       fs.writeFileSync(storedir + 'all_months.tsv', monthstsv);
+      fs.writeFileSync(storedir + 'stats.json', JSON.stringify(stats, null, '  '));
       res('ok');
     } catch (e) {
       err('' + e);
     }
   });
-}).then((data) => {
-  const stats = { updated: new Date().toJSON() };
-  fs.writeFileSync(storedir + 'stats.json', JSON.stringify(stats, null, '  '));
 }).catch((err) => {
   console.log("Error ");
   console.log(err);

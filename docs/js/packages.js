@@ -19,9 +19,9 @@ const showRecent = function(selector, data) {
   }
 }
 
-const shownb = function(nb) {
-  const div = document.querySelector("div#packagesnb");
-  div.insertAdjacentHTML("beforeend", nb + '<br><span>packages</span>');
+const shownb = function(selector, legend, nb) {
+  const div = document.querySelector("div#" + selector);
+  div.insertAdjacentHTML("beforeend", nb + '<br><span>' + legend + '</span>');
 }
 const showstats = function(nb) {
   const div = document.querySelector("div#updated");
@@ -54,7 +54,7 @@ fetch("data/all_packages.json").then(function(response) {
   throw new Error('Network response was not ok.');
 }).then(function(packages) {
   const packagesNb = packages.length;
-  shownb(packagesNb);
+  shownb("packagesnb", "packages", packagesNb);
   const today = new Date();
   const lastDay = today.setDate(today.getDate() - 1);
   const lastWeek = today.setDate(today.getDate() - 7);
@@ -87,6 +87,7 @@ fetch("data/all_packages.json").then(function(response) {
   return getStats();
 }).then(function(data) {
   showstats(data.updated);
+  shownb("contributors", "contributors", data.contributors);
 }).catch(function(error) {
   console.log('Error: ' + error.message);
 });
