@@ -12,6 +12,7 @@ img {
 }
 :link, :visited {
   text-decoration: none;
+  cursor: pointer;
 }
 
 h2 {

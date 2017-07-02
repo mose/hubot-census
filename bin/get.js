@@ -160,7 +160,7 @@ Promise.all([
     }
     return acc;
   }, {});
-  const bymonths = timestamps.reduce(function(acc, el) {
+  let bymonths = timestamps.reduce(function(acc, el) {
     try {
       const created = moment(el.created).format('YYYYMM');
       if (!acc[created])
@@ -189,6 +189,15 @@ Promise.all([
     }
     return acc;
   }, {});
+  // need to adjust currnet month to be proprotional
+  const thismonth = moment().format("YYYYMM");
+  const thisday = moment().format("D");
+  const factor = moment().daysInMonth() / moment().format("D");
+  bymonths[thismonth] = {
+    created: Math.round(bymonths[thismonth].created * factor),
+    modified: Math.round(bymonths[thismonth].modified * factor),
+    releases: Math.round(bymonths[thismonth].releases * factor),
+  }
   let datetsv = 'date\tcreated\tmodified\treleased\n';
   for (var day in bydates) {
     datetsv += day + '\t' + bydates[day].created + '\t' + bydates[day].modified + '\t' + bydates[day].releases + '\n';
