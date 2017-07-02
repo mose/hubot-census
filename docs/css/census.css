@@ -142,6 +142,9 @@ h2 {
 .package .icon:hover svg {
   fill: #000;
 }
+.package .github {
+  right: 28px;
+}
 .package h3 {
   margin-top: 1em;
   font-size: 1em;
