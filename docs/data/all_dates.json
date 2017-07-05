@@ -7656,7 +7656,7 @@
   },
   "20170616": {
     "created": 0,
-    "modified": 3,
+    "modified": 2,
     "releases": 2
   },
   "20170617": {
@@ -7738,5 +7738,10 @@
     "created": 1,
     "modified": 6,
     "releases": 7
+  },
+  "20170705": {
+    "created": 0,
+    "modified": 1,
+    "releases": 1
   }
 }
