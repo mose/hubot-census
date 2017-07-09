@@ -7751,12 +7751,17 @@
   },
   "20170707": {
     "created": 5,
-    "modified": 8,
+    "modified": 7,
     "releases": 15
   },
   "20170708": {
     "created": 0,
     "modified": 4,
-    "releases": 4
+    "releases": 8
+  },
+  "20170709": {
+    "created": 0,
+    "modified": 1,
+    "releases": 3
   }
 }
