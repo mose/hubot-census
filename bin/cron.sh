@@ -1,5 +1,6 @@
 #!/bin/sh
 
+git pull
 node bin/get.js refresh
 git add docs/data
 git status -s
