@@ -1055,6 +1055,7 @@
 {"key":["hubot","hubot-maid","A hubot script that does the things"],"value":1},
 {"key":["hubot","hubot-mail","A Hubot script for preparing messages that will be delivered upon the recipient's next activity (i.e. joins room, enters a message)."],"value":1},
 {"key":["hubot","hubot-mail-listener","A mail listener plugin for hubot"],"value":1},
+{"key":["hubot","hubot-mail-listener-ng","A mail listener plugin for hubot"],"value":1},
 {"key":["hubot","hubot-mail-notifier","A mail notifier plugin for hubot"],"value":1},
 {"key":["hubot","hubot-mailchimp","Mailchimp hubot script as an NPM package"],"value":1},
 {"key":["hubot","hubot-make-it-rain","Make it rain"],"value":1},
