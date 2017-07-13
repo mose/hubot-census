@@ -766,6 +766,7 @@
 {"key":["hubot","hubot-help","A hubot script to show available hubot commands"],"value":1},
 {"key":["hubot","hubot-help-private","A hubot script to show available hubot commands as private message"],"value":1},
 {"key":["hubot","hubot-help-rocketchat-private","A hubot script to show available hubot commands, but unlike the original sends them to you via a DM, works with hubot-rocketchat adapter"],"value":1},
+{"key":["hubot","hubot-helper-uc","Library to help using hubot adapter, but now it support matteruser adapter"],"value":1},
 {"key":["hubot","hubot-heroku","Run heroku commands via hubot without direct access to Heroku"],"value":1},
 {"key":["hubot","hubot-heroku-deploy-hook","A hubot script to get deploy hook from heroku"],"value":1},
 {"key":["hubot","hubot-heroku-deploy-notifier","A hubot script that notifies of heroku app deploys"],"value":1},
