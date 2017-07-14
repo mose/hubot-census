@@ -123,6 +123,7 @@
 {"key":["hubot","hubot-assign","Hubot script for assigning task to team member."],"value":1},
 {"key":["hubot","hubot-assign-pr","A hubot script that assigns people to a PR"],"value":1},
 {"key":["hubot","hubot-astroscrum","An easy way to keep track of your daily scrum with your team!"],"value":1},
+{"key":["hubot","hubot-async","A simple helpful robot for your Company"],"value":1},
 {"key":["hubot","hubot-at","Notification at specific time for hubot"],"value":1},
 {"key":["hubot","hubot-at-events","A hubot plugin to perform events emission at given time."],"value":1},
 {"key":["hubot","hubot-at-oncall","Listens for any mentions of @oncall, looks up the primary on call in PagerDuty, and mentions them to bring their attention to the issue."],"value":1},
