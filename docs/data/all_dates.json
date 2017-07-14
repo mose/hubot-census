@@ -3606,7 +3606,7 @@
   },
   "20150315": {
     "created": 3,
-    "modified": 3,
+    "modified": 2,
     "releases": 12
   },
   "20150316": {
@@ -4776,7 +4776,7 @@
   },
   "20151110": {
     "created": 5,
-    "modified": 4,
+    "modified": 3,
     "releases": 27
   },
   "20151111": {
@@ -4896,7 +4896,7 @@
   },
   "20151204": {
     "created": 3,
-    "modified": 2,
+    "modified": 1,
     "releases": 7
   },
   "20151205": {
@@ -4941,7 +4941,7 @@
   },
   "20151213": {
     "created": 2,
-    "modified": 3,
+    "modified": 2,
     "releases": 6
   },
   "20151214": {
@@ -5976,7 +5976,7 @@
   },
   "20160708": {
     "created": 4,
-    "modified": 3,
+    "modified": 2,
     "releases": 17
   },
   "20160709": {
@@ -6136,7 +6136,7 @@
   },
   "20160809": {
     "created": 4,
-    "modified": 4,
+    "modified": 3,
     "releases": 11
   },
   "20160810": {
@@ -6251,7 +6251,7 @@
   },
   "20160902": {
     "created": 1,
-    "modified": 2,
+    "modified": 1,
     "releases": 9
   },
   "20160903": {
@@ -6326,7 +6326,7 @@
   },
   "20160917": {
     "created": 0,
-    "modified": 2,
+    "modified": 1,
     "releases": 2
   },
   "20160918": {
@@ -6526,7 +6526,7 @@
   },
   "20161027": {
     "created": 2,
-    "modified": 3,
+    "modified": 2,
     "releases": 8
   },
   "20161028": {
@@ -6656,7 +6656,7 @@
   },
   "20161122": {
     "created": 1,
-    "modified": 3,
+    "modified": 2,
     "releases": 3
   },
   "20161123": {
@@ -6871,7 +6871,7 @@
   },
   "20170105": {
     "created": 3,
-    "modified": 5,
+    "modified": 4,
     "releases": 12
   },
   "20170106": {
@@ -7359,11 +7359,6 @@
     "modified": 1,
     "releases": 2
   },
-  "20170416": {
-    "created": 0,
-    "modified": 1,
-    "releases": 0
-  },
   "20170417": {
     "created": 1,
     "modified": 0,
@@ -7721,7 +7716,7 @@
   },
   "20170630": {
     "created": 3,
-    "modified": 9,
+    "modified": 8,
     "releases": 12
   },
   "20170701": {
@@ -7751,7 +7746,7 @@
   },
   "20170707": {
     "created": 5,
-    "modified": 7,
+    "modified": 6,
     "releases": 15
   },
   "20170708": {
@@ -7786,7 +7781,7 @@
   },
   "20170714": {
     "created": 0,
-    "modified": 2,
-    "releases": 2
+    "modified": 16,
+    "releases": 3
   }
 }
