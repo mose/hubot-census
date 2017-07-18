@@ -984,6 +984,7 @@
 {"key":["hubot","hubot-last-fm","Last.fm for Hubot"],"value":1},
 {"key":["hubot","hubot-last.fm","Hubot plugin for looking up what everybody's playing on Last.fm"],"value":1},
 {"key":["hubot","hubot-lastfm","A hubot script that accesses the Last.fm API"],"value":1},
+{"key":["hubot","hubot-late","record every late in your team"],"value":1},
 {"key":["hubot","hubot-laterooms-releases","Retreive information about releases, probably not of interest if you're not laterooms.com"],"value":1},
 {"key":["hubot","hubot-launch-darkly","A hubot script that integrates with launch darkly"],"value":1},
 {"key":["hubot","hubot-launchpad","launchpad interface for hubot"],"value":1},
