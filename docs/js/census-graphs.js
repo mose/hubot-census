@@ -63,7 +63,6 @@ var render = function(svg, datasource, timeformat, verticalLegend, filter) {
       .attr("d", function(d) { return line(d.values); })
       .style("stroke", function(d) { return z(d.id); });
 
-    console.log();
     op.append("text")
       .datum(function(d) { return {id: d.id, value: d.values[d.values.length - 1]}; })
       .attr("transform", function(d) { return "translate(30," + (40 - (operations.map(function(i) { return i.id; }).indexOf(d.id) * 15)) + ")"; })
