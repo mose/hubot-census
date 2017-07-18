@@ -1,4 +1,4 @@
-{"total_rows":1269973,"offset":553058,"rows":[
+{"total_rows":1270567,"offset":553293,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -35,7 +35,6 @@
 {"id":"hubot-sshell","key":["hubot","^2.17.0","hubot-sshell"],"value":1},
 {"id":"mock-hubot-robot","key":["hubot","^2.17.0","mock-hubot-robot"],"value":1},
 {"id":"tbs1102","key":["hubot","^2.17.0","tbs1102"],"value":1},
-{"id":"txbot-code-review","key":["hubot","^2.17.0","txbot-code-review"],"value":1},
 {"id":"fubot","key":["hubot","^2.18.0","fubot"],"value":1},
 {"id":"holyprbot","key":["hubot","^2.18.0","holyprbot"],"value":1},
 {"id":"hubot-acrogov","key":["hubot","^2.18.0","hubot-acrogov"],"value":1},
@@ -76,6 +75,7 @@
 {"id":"hubot-zoi","key":["hubot","^2.8.0","hubot-zoi"],"value":1},
 {"id":"actuator","key":["hubot","^2.8.1","actuator"],"value":1},
 {"id":"hubot-synapse","key":["hubot","^2.8.1","hubot-synapse"],"value":1},
+{"id":"txbot-code-review","key":["hubot","^3.0.1","txbot-code-review"],"value":1},
 {"id":"bruno_hubot-scripts","key":["hubot",">= 2.0.4","bruno_hubot-scripts"],"value":1},
 {"id":"hubot-hipchat-emoticons","key":["hubot",">= 2.10.0","hubot-hipchat-emoticons"],"value":1},
 {"id":"hubot-pagerduty","key":["hubot",">= 2.3.0","hubot-pagerduty"],"value":1},
@@ -488,7 +488,7 @@
 {"id":"botsito","key":["hubot-redis-brain","^0.0.3","botsito"],"value":1},
 {"id":"hubot-code-review","key":["hubot-redis-brain","^0.0.3","hubot-code-review"],"value":1},
 {"id":"hubot-service-now","key":["hubot-redis-brain","^0.0.3","hubot-service-now"],"value":1},
-{"id":"txbot-code-review","key":["hubot-redis-brain","^0.0.3","txbot-code-review"],"value":1},
+{"id":"txbot-code-review","key":["hubot-redis-brain","^0.0.4","txbot-code-review"],"value":1},
 {"id":"cook_kawasaki","key":["hubot-redis-brain","0.0.2","cook_kawasaki"],"value":1},
 {"id":"hubot-basecamp","key":["hubot-redis-brain","0.0.2","hubot-basecamp"],"value":1},
 {"id":"hubot-flash","key":["hubot-redis-brain","0.0.2","hubot-flash"],"value":1},
