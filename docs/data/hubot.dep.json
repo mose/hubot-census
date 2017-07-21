@@ -1,4 +1,4 @@
-{"total_rows":1274108,"offset":554899,"rows":[
+{"total_rows":1274632,"offset":555202,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -231,6 +231,7 @@
 {"id":"hubot-onboarding","key":["hubot-conversation","1.1.0","hubot-onboarding"],"value":1},
 {"id":"josi-admin","key":["hubot-cron","*","josi-admin"],"value":1},
 {"id":"jarvis-bot","key":["hubot-cronjob","^0.2.0","jarvis-bot"],"value":1},
+{"id":"hubot-irc-pingall","key":["hubot-cronjob","0.2.2","hubot-irc-pingall"],"value":1},
 {"id":"hubot-ci","key":["hubot-deploy","^0.11.0","hubot-ci"],"value":1},
 {"id":"hubot-metadeploy","key":["hubot-deploy","^0.13.25","hubot-metadeploy"],"value":1},
 {"id":"hubot-deploy-heroku","key":["hubot-deploy","^0.9.10","hubot-deploy-heroku"],"value":1},
