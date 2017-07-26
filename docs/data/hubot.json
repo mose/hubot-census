@@ -1859,6 +1859,7 @@
 {"key":["hubot","hubot-uber","Hubot script to get Uber estimates"],"value":1},
 {"key":["hubot","hubot-ubereats","A hubot script lists today's meals at Ubereats.es"],"value":1},
 {"key":["hubot","hubot-uhura","A hubot script that talks to riker"],"value":1},
+{"key":["hubot","hubot-ultimaker3-controller","Hubot plugin for remote control of the Ultimaker 3 and Ultimaker 3 Extended."],"value":1},
 {"key":["hubot","hubot-underthebus","Sometimes you need to quickly redirect blame"],"value":1},
 {"key":["hubot","hubot-unfuddle","A Hubot script for interacting with the Unfuddle API."],"value":1},
 {"key":["hubot","hubot-uniwue-mensa","Lets Hubot get the mensa food plan for Uni Würzburg"],"value":1},
