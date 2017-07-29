@@ -1,4 +1,4 @@
-{"total_rows":1288204,"offset":561497,"rows":[
+{"total_rows":1288368,"offset":561554,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -226,6 +226,7 @@
 {"id":"npmtathicomatest","key":["hubot-conversation","^1.1.0","npmtathicomatest"],"value":1},
 {"id":"cloudbot","key":["hubot-conversation","^1.1.1","cloudbot"],"value":1},
 {"id":"hubot-dynamic-conversation","key":["hubot-conversation","^1.1.1","hubot-dynamic-conversation"],"value":1},
+{"id":"hubot-felicity-ticket-api","key":["hubot-conversation","^1.1.1","hubot-felicity-ticket-api"],"value":1},
 {"id":"hubot-pcube-act","key":["hubot-conversation","^1.1.1","hubot-pcube-act"],"value":1},
 {"id":"hubot-rocketchat-announcement","key":["hubot-conversation","^1.1.1","hubot-rocketchat-announcement"],"value":1},
 {"id":"hubot-onboarding","key":["hubot-conversation","1.1.0","hubot-onboarding"],"value":1},
