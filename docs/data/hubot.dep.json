@@ -1,4 +1,4 @@
-{"total_rows":1290014,"offset":562284,"rows":[
+{"total_rows":1290365,"offset":562426,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -226,7 +226,6 @@
 {"id":"npmtathicomatest","key":["hubot-conversation","^1.1.0","npmtathicomatest"],"value":1},
 {"id":"cloudbot","key":["hubot-conversation","^1.1.1","cloudbot"],"value":1},
 {"id":"hubot-dynamic-conversation","key":["hubot-conversation","^1.1.1","hubot-dynamic-conversation"],"value":1},
-{"id":"hubot-felicity-ticket-api","key":["hubot-conversation","^1.1.1","hubot-felicity-ticket-api"],"value":1},
 {"id":"hubot-pcube-act","key":["hubot-conversation","^1.1.1","hubot-pcube-act"],"value":1},
 {"id":"hubot-rocketchat-announcement","key":["hubot-conversation","^1.1.1","hubot-rocketchat-announcement"],"value":1},
 {"id":"hubot-onboarding","key":["hubot-conversation","1.1.0","hubot-onboarding"],"value":1},
@@ -265,6 +264,7 @@
 {"id":"typingspeed-bot","key":["hubot-diagnostics","0.0.1","typingspeed-bot"],"value":1},
 {"id":"lisb-hubot","key":["hubot-direct","0.1.x","lisb-hubot"],"value":1},
 {"id":"hubot-as-syncbot","key":["hubot-duplicate","^0.1.3","hubot-as-syncbot"],"value":1},
+{"id":"hubot-felicity-ticket-api","key":["hubot-dynamic-conversation","^1.0.1","hubot-felicity-ticket-api"],"value":1},
 {"id":"cfpbot","key":["hubot-eavesdrop","^2.0.0","cfpbot"],"value":1},
 {"id":"cloudbot","key":["hubot-emit-tweeter","latest","cloudbot"],"value":1},
 {"id":"hubot-ibmcloud-twitter","key":["hubot-emit-tweeter","latest","hubot-ibmcloud-twitter"],"value":1},
