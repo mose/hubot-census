@@ -155,6 +155,7 @@
 {"key":["hubot","hubot-axosoft","A hubot script that helps you quickly grab data from and add new items to Axosoft, an agile project management solution."],"value":1},
 {"key":["hubot","hubot-azar","Hubot script que selecciona al azar de un conjunto separados por coma (,)"],"value":1},
 {"key":["hubot","hubot-azure","Interact with Azure CLI through Hubot"],"value":1},
+{"key":["hubot","hubot-azure-brain","A hubot script to persist hubot's brain using Azure storage"],"value":1},
 {"key":["hubot","hubot-azure-notifier","Azure deployment notifier for Hubot"],"value":1},
 {"key":["hubot","hubot-azure-redis-brain","A hubot brain using azure redis cache"],"value":1},
 {"key":["hubot","hubot-azure-scripts","Hubot scripts for Azure"],"value":1},
