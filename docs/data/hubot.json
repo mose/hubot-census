@@ -1149,6 +1149,7 @@
 {"key":["hubot","hubot-motivate","A hubot script ported from http://motivate.im"],"value":1},
 {"key":["hubot","hubot-motivator","A hubot script to motivate you"],"value":1},
 {"key":["hubot","hubot-movie","A hubot script that search movie info from IMDB via OMDB"],"value":1},
+{"key":["hubot","hubot-moxtra","Moxtra Adapter for Hubot"],"value":1},
 {"key":["hubot","hubot-mr-reminder","Reminds people when MR are just waiting around in Gitlab."],"value":1},
 {"key":["hubot","hubot-mrrobot","Countdown until next Mr. Robot episode"],"value":1},
 {"key":["hubot","hubot-ms-teams","Hubot adapter for Microsoft Teams"],"value":1},
