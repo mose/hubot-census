@@ -1,4 +1,4 @@
-{"total_rows":1305037,"offset":568729,"rows":[
+{"total_rows":1305645,"offset":569021,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -132,7 +132,6 @@
 {"id":"hubot-modcloth","key":["hubot",">= 2.6.0","hubot-modcloth"],"value":1},
 {"id":"hubot-yet-another-foos","key":["hubot",">= 2.6.0","hubot-yet-another-foos"],"value":1},
 {"id":"hubot-zabbix","key":["hubot",">= 2.6.0","hubot-zabbix"],"value":1},
-{"id":"hubot-pretend","key":["hubot",">= 2.6.0 < 3","hubot-pretend"],"value":1},
 {"id":"hubot-computerdogs","key":["hubot",">= 2.6.0 < 3.0.0","hubot-computerdogs"],"value":1},
 {"id":"hubot-devopsreactions","key":["hubot",">= 2.6.0 < 3.0.0","hubot-devopsreactions"],"value":1},
 {"id":"hubot-junk","key":["hubot",">= 2.6.0 < 3.0.0","hubot-junk"],"value":1},
@@ -199,6 +198,7 @@
 {"id":"cfpbot","key":["hubot-ambush","0.0.3","cfpbot"],"value":1},
 {"id":"sqweelygig","key":["hubot-annoying-song","^0.x","sqweelygig"],"value":1},
 {"id":"hubot-google-news","key":["hubot-arm","^0.2.1","hubot-google-news"],"value":1},
+{"id":"hubot-pretend","key":["hubot-async","v3.0.1-async","hubot-pretend"],"value":1},
 {"id":"hubot-astroscrum","key":["hubot-auth","^1.2.0","hubot-astroscrum"],"value":1},
 {"id":"hubot-heroku","key":["hubot-auth","^1.2.0","hubot-heroku"],"value":1},
 {"id":"hubot-pulsar","key":["hubot-auth","^1.2.0","hubot-pulsar"],"value":1},
