@@ -1,4 +1,4 @@
-{"total_rows":1311543,"offset":571440,"rows":[
+{"total_rows":1312053,"offset":571640,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -108,6 +108,7 @@
 {"id":"hubot-od","key":["hubot",">= 2.4.0","hubot-od"],"value":1},
 {"id":"hubot-poco","key":["hubot",">= 2.4.0","hubot-poco"],"value":1},
 {"id":"hubot-podbaydoors","key":["hubot",">= 2.4.0","hubot-podbaydoors"],"value":1},
+{"id":"hubot-poke","key":["hubot",">= 2.4.0","hubot-poke"],"value":1},
 {"id":"hubot-pun-me","key":["hubot",">= 2.4.0","hubot-pun-me"],"value":1},
 {"id":"hubot-regex","key":["hubot",">= 2.4.0","hubot-regex"],"value":1},
 {"id":"hubot-robowhois","key":["hubot",">= 2.4.0","hubot-robowhois"],"value":1},
