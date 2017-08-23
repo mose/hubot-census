@@ -2260,6 +2260,7 @@
 {"key":["hubot-learn","hubot-learn","teaches the character to the hubot."],"value":1},
 {"key":["hubot-lunch","hubot-lunch","An easy way to keep track of lunch in your office"],"value":1},
 {"key":["hubot-lunch","hubot-lunchbot","An easy way to keep track of lunch in your office"],"value":1},
+{"key":["hubot-mad-jenkins","hubot-mad-jenkins","jenkins"],"value":1},
 {"key":["hubot-middleware","hubot-middleware-kuromoji","A hubot middleware for kuromoji.js"],"value":1},
 {"key":["hubot-mock-adapter","mock-hubot","Hubot mock library made dead simple"],"value":1},
 {"key":["hubot-motivate","hubot-praise","A hubot script that you can use to praise a coworker, send them an awesome gif and high five them"],"value":1},
