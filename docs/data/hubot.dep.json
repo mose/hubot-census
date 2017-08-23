@@ -1,4 +1,4 @@
-{"total_rows":1324588,"offset":577332,"rows":[
+{"total_rows":1325025,"offset":577515,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -645,6 +645,7 @@
 {"id":"hubot-sm","key":["hubot-slack","^3.4.2","hubot-sm"],"value":1},
 {"id":"tbs1102","key":["hubot-slack","^3.4.2","tbs1102"],"value":1},
 {"id":"hubot-slack-rainfall-alert","key":["hubot-slack","^4.0.2","hubot-slack-rainfall-alert"],"value":1},
+{"id":"hubot-slack-tofu-honyaku","key":["hubot-slack","^4.0.2","hubot-slack-tofu-honyaku"],"value":1},
 {"id":"hubot-spatial","key":["hubot-slack","^4.0.2","hubot-spatial"],"value":1},
 {"id":"cloudbot","key":["hubot-slack","^4.0.5","cloudbot"],"value":1},
 {"id":"hubot-slack-reaction-example","key":["hubot-slack","^4.2.0","hubot-slack-reaction-example"],"value":1},

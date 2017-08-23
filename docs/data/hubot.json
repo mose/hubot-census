@@ -1647,6 +1647,7 @@
 {"key":["hubot","hubot-slack-sumologic-charts","Learn Hubot how to make beautiful charts from sumologic datas"],"value":1},
 {"key":["hubot","hubot-slack-tenki-jp","shows Tokyo's weather forecast (lang:ja)"],"value":1},
 {"key":["hubot","hubot-slack-timeline","send all of the messages on Slack in #timeline"],"value":1},
+{"key":["hubot","hubot-slack-tofu-honyaku","A tofu honyaku script for hubot-slack"],"value":1},
 {"key":["hubot","hubot-slack-twitter","A robot to send twitts from slack"],"value":1},
 {"key":["hubot","hubot-slack-utils","A hubot script for miscellaneous Slack utilities."],"value":1},
 {"key":["hubot","hubot-slack-webhook","Allows Hubot to accept Slack Incoming Webhooks for when you've ran out of free integrations."],"value":1},
