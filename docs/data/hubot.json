@@ -495,6 +495,7 @@
 {"key":["hubot","hubot-ectorx","Hubot's ECTOR script package (learning chatterbot)"],"value":1},
 {"key":["hubot","hubot-ehwha","Provides link to Professor Farnsworth saying 'Eh wha?'"],"value":1},
 {"key":["hubot","hubot-eightball-fr","Un script hubot pour une 8 ball"],"value":1},
+{"key":["hubot","hubot-eksisozluk","A hubot script that retrieves random entries from Turkish collaborative hypertext dictionary eksisozluk.com"],"value":1},
 {"key":["hubot","hubot-elasticbeanstalk","A hubot script to manage AWS Elastic Beanstalk applications"],"value":1},
 {"key":["hubot","hubot-elasticsearch","A Hubot script for interacting with an ElasticSearch cluster"],"value":1},
 {"key":["hubot","hubot-elasticsearch-logger","Hubot script for logging chats to Elasticsearch"],"value":1},
