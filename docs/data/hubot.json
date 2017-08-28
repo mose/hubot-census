@@ -2001,6 +2001,7 @@
 {"key":["hubot","hubot-yahoo-amagumo","Yahoo Rain-Cloud(Amagumo) Radar hubot"],"value":1},
 {"key":["hubot","hubot-yardmaster","Hubot Script for controlling CI server actions, what to deploy, when to deploy, what branch is deployed"],"value":1},
 {"key":["hubot","hubot-yelp","Enables hubot to suggest places for lunchtime. Powered by Yelp."],"value":1},
+{"key":["hubot","hubot-yemeksepeti","A hubot script that suggests random food from online food ordering company yemeksepeti.com"],"value":1},
 {"key":["hubot","hubot-yesno","A Hubot script for a random yes or no with image from the Yes Or No? API."],"value":1},
 {"key":["hubot","hubot-yesnowtf","Hubot script that displays yesno.wtf response"],"value":1},
 {"key":["hubot","hubot-yet-another-foos","A hubot script for foosball gathering. Based on https://www.npmjs.com/package/hubot-foos"],"value":1},
