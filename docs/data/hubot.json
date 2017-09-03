@@ -376,6 +376,7 @@
 {"key":["hubot","hubot-cron-events","A hubot plugin to perform generic event emission scheduled using cron job."],"value":1},
 {"key":["hubot","hubot-cron-json","Manage hubot cron job defined by json configuration"],"value":1},
 {"key":["hubot","hubot-cronjob","Hubot scriptable cron job"],"value":1},
+{"key":["hubot","hubot-crypto","A Hubot script to report values of cryptocurrencies, tokens, coins."],"value":1},
 {"key":["hubot","hubot-csf","A CSF adapter for hubot"],"value":1},
 {"key":["hubot","hubot-curate-links","A hubot script for Slack that saves links that are shared"],"value":1},
 {"key":["hubot","hubot-curl","A hubot script that calls curl"],"value":1},
