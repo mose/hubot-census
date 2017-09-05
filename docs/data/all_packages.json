@@ -8172,6 +8172,15 @@
     ]
   },
   {
+    "id": "hubot-felicity-nagios-record-analyser",
+    "created": "2017-09-05T08:25:17.200Z",
+    "modified": "2017-09-05T08:25:17.200Z",
+    "latest": "2017-09-05T08:25:17.200Z",
+    "releases": [
+      "2017-09-05T08:25:17.200Z"
+    ]
+  },
+  {
     "id": "hubot-felicity-ticket-api",
     "created": "2017-07-29T08:27:40.376Z",
     "modified": "2017-08-02T11:35:40.018Z",
@@ -12059,6 +12068,16 @@
     "latest": "2015-04-02T14:16:39.781Z",
     "releases": [
       "2015-04-02T14:16:39.781Z"
+    ]
+  },
+  {
+    "id": "hubot-hubot-felicity-nagios-record-analyser",
+    "created": "2017-09-05T08:17:46.793Z",
+    "modified": "2017-09-05T08:27:58.782Z",
+    "latest": "2017-09-05T08:17:46.793Z",
+    "releases": [
+      "2017-09-05T08:17:46.793Z",
+      "2017-09-05T08:22:20.743Z"
     ]
   },
   {
