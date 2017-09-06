@@ -2100,6 +2100,7 @@
 {"key":["hubot","npm-install-extra-packages","Install packages other then those declared in package.json"],"value":1},
 {"key":["hubot","npmdoc-hubot","#### basic api documentation for  [hubot (v2.19.0)](https://github.com/github/hubot#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-hubot.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-hubot) [![travis-ci.org build-status](https"],"value":1},
 {"key":["hubot","npmtest-hubot","#### basic test coverage for  [hubot (v2.19.0)](https://github.com/github/hubot#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-hubot.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hubot) [![travis-ci.org build-status](https:/"],"value":1},
+{"key":["hubot","nubot","A conversational context-aware chatbot"],"value":1},
 {"key":["hubot","oden-boy","Bot for Slack to select reviewers. If you send the URL of PR to Bot, we will pick two reviewers and add them to Assignees of Github."],"value":1},
 {"key":["hubot","on-cooldown","Put functions on cooldown"],"value":1},
 {"key":["hubot","orchestrate-brain","Hubot brain that uses orchestrate.io."],"value":1},

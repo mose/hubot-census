@@ -1,4 +1,4 @@
-{"total_rows":1345583,"offset":586739,"rows":[
+{"total_rows":1346204,"offset":586975,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -469,6 +469,7 @@
 {"id":"hubot-longtext","key":["hubot-paste","^2.3.0","hubot-longtext"],"value":1},
 {"id":"botsito","key":["hubot-phrases","^1.3.3","botsito"],"value":1},
 {"id":"hubot-bucket","key":["hubot-phrases","=1.2.0","hubot-bucket"],"value":1},
+{"id":"nubot","key":["hubot-playbook","1.0.0","nubot"],"value":1},
 {"id":"botsito","key":["hubot-plusplus","^1.4.0","botsito"],"value":1},
 {"id":"cfpbot","key":["hubot-plusplus","1.2.5","cfpbot"],"value":1},
 {"id":"AbokyBot","key":["hubot-pugme","^0.1.0","AbokyBot"],"value":1},
