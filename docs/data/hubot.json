@@ -562,6 +562,7 @@
 {"key":["hubot","hubot-fb","A Hubot adapter for Facebook Messenger"],"value":1},
 {"key":["hubot","hubot-fb-debugger","A hubot script that does the Facebook Debugger and show Facebook link stat"],"value":1},
 {"key":["hubot","hubot-fb-platform","A Hubot adapter for Facebook Messenger"],"value":1},
+{"key":["hubot","hubot-fb-workplace","This is a hubot adapter for Facebook Workplace"],"value":1},
 {"key":["hubot","hubot-fbombflip","Hubot script. Responds to '[x] the fucking [y]' with '[x] fucking the [y]?!'"],"value":1},
 {"key":["hubot","hubot-feed-from-feedly","get feed from feedly at 2 minute intervals or hubot feed"],"value":1},
 {"key":["hubot","hubot-felicity-nagios-record-analyser","Analyses logs from nagios and ETL's them"],"value":1},
