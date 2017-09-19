@@ -23541,6 +23541,15 @@
     ]
   },
   {
+    "id": "hubot-slack-interactive-messages",
+    "created": "2017-09-19T14:48:46.628Z",
+    "modified": "2017-09-19T14:48:46.628Z",
+    "latest": "2017-09-19T14:48:46.628Z",
+    "releases": [
+      "2017-09-19T14:48:46.628Z"
+    ]
+  },
+  {
     "id": "hubot-slack-invite-request",
     "created": "2014-08-30T09:46:01.467Z",
     "modified": "2014-09-01T01:20:33.718Z",
