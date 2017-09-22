@@ -1103,7 +1103,7 @@
 {"key":["hubot","hubot-mattermost-attachment","Re-enable `mattermmost-attachment` event for hubot-mattermmost"],"value":1},
 {"key":["hubot","hubot-mattermost-sm","A hubot script for HPE Service Manager"],"value":1},
 {"key":["hubot","hubot-matteruser","Mattermost Adapter"],"value":1},
-{"key":["hubot","hubot-matteruser-es6","**Hubot** is \"chat bot\" created by GitHub that listens for commands and executes actions based on your requests."],"value":1},
+{"key":["hubot","hubot-matteruser-es6","[![npm package][npm-badge]][npm]"],"value":1},
 {"key":["hubot","hubot-matteruser-uc","Mattermost Adapter"],"value":1},
 {"key":["hubot","hubot-maxim","Hubot Maxim Script"],"value":1},
 {"key":["hubot","hubot-mayer-imbiss","Hubot script package for quick access to the Tageskarte of the second Metzger on the Venloer Straße"],"value":1},
