@@ -1481,6 +1481,7 @@
 {"key":["hubot","hubot-rocketchat-ignore-direct","Middleware to prevent hubot listeners from responding to direct messages."],"value":1},
 {"key":["hubot","hubot-rocketchat-welcome","Hubot script o welcome new users to Rocket.Chat or a Rocket.Chat room (via a DM as default)"],"value":1},
 {"key":["hubot","hubot-rocki","A hubot script to return ROCKI slogans when prompted"],"value":1},
+{"key":["hubot","hubot-rod_script","Script that comsumes the Pokéapi to return Pokémon info. This also can list a user's public repos and show the last xkcd comic. (And more...)"],"value":1},
 {"key":["hubot","hubot-roll","An advanced polyhedral die roller for Hubot."],"value":1},
 {"key":["hubot","hubot-roller","Flexible dice roller for Hubot"],"value":1},
 {"key":["hubot","hubot-rollin","A hubot script that allows for advanced dice rolls."],"value":1},
