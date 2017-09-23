@@ -1,4 +1,4 @@
-{"total_rows":1358508,"offset":592459,"rows":[
+{"total_rows":1358869,"offset":592651,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -63,6 +63,7 @@
 {"id":"hubot-mattermost-adapter","key":["hubot","^2.19.0","hubot-mattermost-adapter"],"value":1},
 {"id":"hubot-quizbot","key":["hubot","^2.19.0","hubot-quizbot"],"value":1},
 {"id":"hubot-servicenow","key":["hubot","^2.19.0","hubot-servicenow"],"value":1},
+{"id":"hubot-shame","key":["hubot","^2.19.0","hubot-shame"],"value":1},
 {"id":"hubot-slack-reaction-example","key":["hubot","^2.19.0","hubot-slack-reaction-example"],"value":1},
 {"id":"hubot-slack-reaction-spam","key":["hubot","^2.19.0","hubot-slack-reaction-spam"],"value":1},
 {"id":"hubot-spatial","key":["hubot","^2.19.0","hubot-spatial"],"value":1},
