@@ -13240,6 +13240,15 @@
     ]
   },
   {
+    "id": "hubot-interactive-messages",
+    "created": "2017-09-24T17:26:09.650Z",
+    "modified": "2017-09-24T17:26:09.650Z",
+    "latest": "2017-09-24T17:26:09.650Z",
+    "releases": [
+      "2017-09-24T17:26:09.650Z"
+    ]
+  },
+  {
     "id": "hubot-introduce",
     "created": "2014-10-25T03:20:06.542Z",
     "modified": "2014-10-27T00:30:14.494Z",
