@@ -2118,6 +2118,7 @@
 {"key":["hubot","orchestrate-brain","Hubot brain that uses orchestrate.io."],"value":1},
 {"key":["hubot","pb-hubot","A Hubot Script for Pandorabot"],"value":1},
 {"key":["hubot","posicon","Return a random contextually valid hipchat emoticon"],"value":1},
+{"key":["hubot","pull-review","Assign pull request reviewers intelligently"],"value":1},
 {"key":["hubot","qqbot","A robot lives on webQQ"],"value":1},
 {"key":["hubot","quizz","A Simple Quizz"],"value":1},
 {"key":["hubot","recurry","recurring REST call scheduler (instead of cron+flock)"],"value":1},
