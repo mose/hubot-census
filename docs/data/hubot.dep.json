@@ -1,4 +1,4 @@
-{"total_rows":1363954,"offset":594950,"rows":[
+{"total_rows":1364377,"offset":595140,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -430,6 +430,7 @@
 {"id":"xbot","key":["hubot-irc","^0.2.9","xbot"],"value":1},
 {"id":"lilybotbrian","key":["hubot-jenkins","^1.0.2","lilybotbrian"],"value":1},
 {"id":"lilybotbrian","key":["hubot-jenkins-slack","0.0.2","lilybotbrian"],"value":1},
+{"id":"hubot-jira-ansible","key":["hubot-jira-bot","^7.4.0","hubot-jira-ansible"],"value":1},
 {"id":"cfpbot","key":["hubot-jira-lookup","git://github.com/jivesoftware/hubot-jira-lookup.git#840ff7444479324fbdb423c1c7f7630b4c886f5d","cfpbot"],"value":1},
 {"id":"hubot-kandan-heroku","key":["hubot-kandan","0.9.6","hubot-kandan-heroku"],"value":1},
 {"id":"cfpbot","key":["hubot-keys","^2.0.0","cfpbot"],"value":1},
