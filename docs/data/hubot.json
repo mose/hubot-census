@@ -963,6 +963,7 @@
 {"key":["hubot","hubot-jira-lotto","A Hubot script to pick assignee for JIRA issues"],"value":1},
 {"key":["hubot","hubot-jira-reporter","Compiles data from JIRA into daily reports"],"value":1},
 {"key":["hubot","hubot-jira-ticket","A hubot script to find and display jira issue links and it's title"],"value":1},
+{"key":["hubot","hubot-jira-ticket-title","Hubot script that display title of JIRA ticket."],"value":1},
 {"key":["hubot","hubot-jirabot","A hubot script to fetch JIRA issues"],"value":1},
 {"key":["hubot","hubot-jirabot-ng","A hubot script to fetch JIRA issues"],"value":1},
 {"key":["hubot","hubot-jiralinks","An example script package for Hubot"],"value":1},
