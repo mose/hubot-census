@@ -3441,7 +3441,7 @@
   },
   "20150210": {
     "created": 1,
-    "modified": 2,
+    "modified": 1,
     "releases": 4
   },
   "20150211": {
@@ -8137,6 +8137,11 @@
   "20171010": {
     "created": 0,
     "modified": 4,
-    "releases": 31
+    "releases": 32
+  },
+  "20171011": {
+    "created": 0,
+    "modified": 1,
+    "releases": 4
   }
 }
