@@ -755,6 +755,7 @@
 {"key":["hubot","hubot-groupme","GroupMe adapter for Hubot"],"value":1},
 {"key":["hubot","hubot-groupme-v3","GroupMe adapter for Hubot"],"value":1},
 {"key":["hubot","hubot-groupme-webhook","GroupMe adapter for Hubot using the bot API webhook"],"value":1},
+{"key":["hubot","hubot-growl","hubot adapter for growl"],"value":1},
 {"key":["hubot","hubot-guru","A Hubot script that replies with facts from Guru."],"value":1},
 {"key":["hubot","hubot-guys","Listens for mentions of 'guys' and responds with helpful alternatives"],"value":1},
 {"key":["hubot","hubot-gyotaku","Handling Web GYOTAKU for Hubot"],"value":1},
