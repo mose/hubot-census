@@ -911,6 +911,7 @@
 {"key":["hubot","hubot-insanedomains","returns a random rhyming domain name, insane.domains scrape for Hubot"],"value":1},
 {"key":["hubot","hubot-inspace","Who is currently in orbit in space?"],"value":1},
 {"key":["hubot","hubot-inspect","Inspect Bitbucket repos & Cloud66 stacks"],"value":1},
+{"key":["hubot","hubot-inspirobot","Inspirational quotes for hubot"],"value":1},
 {"key":["hubot","hubot-instacart","robofood"],"value":1},
 {"key":["hubot","hubot-instagram","Instagram adapter for Hubot"],"value":1},
 {"key":["hubot","hubot-instapaper","Adds an URL to the Instapaper Service."],"value":1},
