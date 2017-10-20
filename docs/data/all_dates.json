@@ -8186,7 +8186,12 @@
   },
   "20171020": {
     "created": 4,
-    "modified": 10,
+    "modified": 8,
     "releases": 13
+  },
+  "20171021": {
+    "created": 0,
+    "modified": 2,
+    "releases": 2
   }
 }
