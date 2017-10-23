@@ -17,6 +17,7 @@
 {"key":["hubot","cloudbot","The famed IBM Cloudbot"],"value":1},
 {"key":["hubot","conditioner-regex","Convert sets of semantic key/vale conditions to regex capture groups"],"value":1},
 {"key":["hubot","crstankbot","bot for crstank monitoring"],"value":1},
+{"key":["hubot","davidford-hubot-vso-scripts","Hubot Visual Studio Online Scripts"],"value":1},
 {"key":["hubot","deploy-shrine","This is a script that is me fortune the deploy "],"value":1},
 {"key":["hubot","dorfbot-rpgdice","Rolls dice!"],"value":1},
 {"key":["hubot","dorfbot-youtube","A hubot script for searching YouTube"],"value":1},
