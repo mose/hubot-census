@@ -6521,7 +6521,7 @@
   },
   "20161026": {
     "created": 2,
-    "modified": 3,
+    "modified": 2,
     "releases": 10
   },
   "20161027": {
@@ -8208,5 +8208,10 @@
     "created": 2,
     "modified": 6,
     "releases": 11
+  },
+  "20171025": {
+    "created": 0,
+    "modified": 1,
+    "releases": 1
   }
 }

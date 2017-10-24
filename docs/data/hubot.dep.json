@@ -1,4 +1,4 @@
-{"total_rows":1406496,"offset":614220,"rows":[
+{"total_rows":1406972,"offset":614421,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -195,6 +195,7 @@
 {"id":"hubot-github-pr-assign-notification","key":["hubot","2.x","hubot-github-pr-assign-notification"],"value":1},
 {"id":"hubot-plotw","key":["hubot","2.x","hubot-plotw"],"value":1},
 {"id":"hubot-recast-ai","key":["hubot","2.x","hubot-recast-ai"],"value":1},
+{"id":"hubot-remotestorage-logger","key":["hubot","2.x","hubot-remotestorage-logger"],"value":1},
 {"id":"hubot-watcher","key":["hubot","2.x","hubot-watcher"],"value":1},
 {"id":"xbot","key":["hubot","git://github.com/hubotio/hubot.git#73fc2bbc1c08de7722d47eacc237d2e081a29c36","xbot"],"value":1},
 {"id":"cfpbot","key":["hubot","github:cfpb/hubot","cfpbot"],"value":1},
