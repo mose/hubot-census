@@ -96,6 +96,7 @@
 {"key":["hubot","hubot-annoying-song","A hubot script that sings annoying songs"],"value":1},
 {"key":["hubot","hubot-anon","A Hubot script to send anonymous messages"],"value":1},
 {"key":["hubot","hubot-anonymous-post","hubot anonymous post"],"value":1},
+{"key":["hubot","hubot-another-weixin","This is another wechat/weixin adapter for hubot"],"value":1},
 {"key":["hubot","hubot-ansible","A hubot script for launching ansible commands"],"value":1},
 {"key":["hubot","hubot-answers","Teaches hubot to answer your yes/no questions"],"value":1},
 {"key":["hubot","hubot-aotw","Track and manage the album of the week."],"value":1},
