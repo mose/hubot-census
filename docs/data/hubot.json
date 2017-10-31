@@ -2226,6 +2226,7 @@
 {"key":["hubot-adapters","hubot-fb-platform","A Hubot adapter for Facebook Messenger"],"value":1},
 {"key":["hubot-adapters","hubot-messenger-botfuel","A Hubot adapter for Facebook Messenger"],"value":1},
 {"key":["hubot-ama","hubot-ama","A hubot package that hosts AMAs"],"value":1},
+{"key":["hubot-anime-dl","hera-anime-dl","A simple but usefult cli for getting and returning anime video links / download link of the anime name and spisode number you input into the cli thus returning a link you can copy and paste into a browser. Simple really."],"value":1},
 {"key":["hubot-aotw","hubot-aotw","Track and manage the album of the week."],"value":1},
 {"key":["hubot-arms","hubot-request-arm","A Hubot arm that send HTTP request"],"value":1},
 {"key":["hubot-arms","hubot-timer-arm","A Hubot arm that setTimeout using Promise"],"value":1},
