@@ -1574,6 +1574,7 @@
 {"key":["hubot","hubot-scrumvival","display nudge from scrumvival.com"],"value":1},
 {"key":["hubot","hubot-search","An extendable Hubot script for querying several search engine services: Google Custom Search, and Bing Search API."],"value":1},
 {"key":["hubot","hubot-seen","A hubot script that tracks when/where users were last seen"],"value":1},
+{"key":["hubot","hubot-seerchat","Hobot Seerline Adapter, this package fork from Rocket.Chat"],"value":1},
 {"key":["hubot","hubot-semaphore-deploy","Hubot plugin for Semaphore's deployment API"],"value":1},
 {"key":["hubot","hubot-semaphoreapp","Hubot integration with Semaphore (semaphoreapp.com)"],"value":1},
 {"key":["hubot","hubot-sendgrid","SendGrid plugin for hubot"],"value":1},
