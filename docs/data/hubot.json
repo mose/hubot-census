@@ -2149,6 +2149,7 @@
 {"key":["hubot","qqbot","A robot lives on webQQ"],"value":1},
 {"key":["hubot","quizz","A Simple Quizz"],"value":1},
 {"key":["hubot","recurry","recurring REST call scheduler (instead of cron+flock)"],"value":1},
+{"key":["hubot","redbot-redmine-notifier","Notifies about Redmine creating and updating tickets"],"value":1},
 {"key":["hubot","redribbot-brain","A tiny brain for redribbot scripts."],"value":1},
 {"key":["hubot","riddlebot","The master of conundrums itself, the riddlebot will stump you with only the most difficult riddles."],"value":1},
 {"key":["hubot","riiidbot-brain","A tiny brain for riiidbot scripts."],"value":1},
