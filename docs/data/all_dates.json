@@ -2991,7 +2991,7 @@
   },
   "20141110": {
     "created": 0,
-    "modified": 1,
+    "modified": 0,
     "releases": 1
   },
   "20141111": {
@@ -8356,7 +8356,7 @@
   },
   "20171130": {
     "created": 0,
-    "modified": 2,
+    "modified": 1,
     "releases": 3
   },
   "20171201": {
@@ -8371,7 +8371,12 @@
   },
   "20171205": {
     "created": 1,
-    "modified": 10,
-    "releases": 5
+    "modified": 11,
+    "releases": 6
+  },
+  "20171206": {
+    "created": 1,
+    "modified": 2,
+    "releases": 3
   }
 }
