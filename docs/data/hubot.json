@@ -2144,6 +2144,7 @@
 {"key":["hubot","nubot","A conversational context-aware chatbot"],"value":1},
 {"key":["hubot","nubot-connect-mongo","Robot brain storage handler for MongoDB"],"value":1},
 {"key":["hubot","nubot-mongodb-brain","Robot brain storage handler for MongoDB"],"value":1},
+{"key":["hubot","nubot-playbook","Conversational UI chatbot framework."],"value":1},
 {"key":["hubot","oden-boy","Bot for Slack to select reviewers. If you send the URL of PR to Bot, we will pick two reviewers and add them to Assignees of Github."],"value":1},
 {"key":["hubot","on-cooldown","Put functions on cooldown"],"value":1},
 {"key":["hubot","orchestrate-brain","Hubot brain that uses orchestrate.io."],"value":1},
