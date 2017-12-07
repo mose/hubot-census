@@ -22801,6 +22801,16 @@
     ]
   },
   {
+    "id": "hubot-scripts-us-federal-holidays-reminder",
+    "created": "2017-12-07T01:07:35.912Z",
+    "modified": "2017-12-07T01:13:03.094Z",
+    "latest": "2017-12-07T01:13:03.094Z",
+    "releases": [
+      "2017-12-07T01:07:35.912Z",
+      "2017-12-07T01:13:03.094Z"
+    ]
+  },
+  {
     "id": "hubot-scrum",
     "created": "2015-01-30T05:29:01.278Z",
     "modified": "2017-02-12T00:15:48.236Z",
