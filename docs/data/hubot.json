@@ -182,6 +182,7 @@
 {"key":["hubot","hubot-baronbogo","Rocket.Chat's Hubot for GitHub Integration"],"value":1},
 {"key":["hubot","hubot-bart","Hubot script to query realtime BART departures."],"value":1},
 {"key":["hubot","hubot-bart-elite","Allows you to query the BART API for real time transit information.  Get train times for any station, service advisory information as well as elevator advistory information and much more."],"value":1},
+{"key":["hubot","hubot-bart-train","Hubot script to query realtime BART departures."],"value":1},
 {"key":["hubot","hubot-base-adapter","A base adapter for Hubot"],"value":1},
 {"key":["hubot","hubot-base-script","A simple hubot script that does nothing, to start development from"],"value":1},
 {"key":["hubot","hubot-baseball","A Hubot plugin for pulling in today's MLB games (and scores)."],"value":1},
