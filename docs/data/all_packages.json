@@ -10413,6 +10413,15 @@
     ]
   },
   {
+    "id": "hubot-gitlab-connector",
+    "created": "2017-12-12T21:39:53.624Z",
+    "modified": "2017-12-12T21:39:53.624Z",
+    "latest": "2017-12-12T21:39:53.624Z",
+    "releases": [
+      "2017-12-12T21:39:53.624Z"
+    ]
+  },
+  {
     "id": "hubot-gitlab-hooks",
     "created": "2014-09-14T15:26:47.310Z",
     "modified": "2017-09-09T19:26:56.744Z",
