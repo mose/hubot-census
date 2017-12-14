@@ -1328,6 +1328,7 @@
 {"key":["hubot","hubot-pivotal-search","Harness the full power of Pivotal Tracker's search"],"value":1},
 {"key":["hubot","hubot-pivotal-tracker","A module to enable interactions with pivotal tracker"],"value":1},
 {"key":["hubot","hubot-placeholdit","A hubot script to quickly get a placehold.it image"],"value":1},
+{"key":["hubot","hubot-plan","Plan get-togethers with chatops"],"value":1},
 {"key":["hubot","hubot-planning-poker","Hubot script for poker planning"],"value":1},
 {"key":["hubot","hubot-playbook","Conversational UI chatbot framework."],"value":1},
 {"key":["hubot","hubot-plex","A hubot script to interact with a Plex Media Server"],"value":1},
