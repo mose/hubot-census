@@ -504,6 +504,7 @@
 {"key":["hubot","hubot-dynamic-log-level","Dynamically change the log level of hubot"],"value":1},
 {"key":["hubot","hubot-dynamodb-brain","A hubot brain built on DynamoDB"],"value":1},
 {"key":["hubot","hubot-dynstatus","A hubot script to check the RSS feed at http://www.dynstatus.com"],"value":1},
+{"key":["hubot","hubot-earthimpact","Get the potential future Earth impact events from an alien object that has been detected based on currently available observations"],"value":1},
 {"key":["hubot","hubot-eavesdrop","A hubot script to perform actions when user-specified keywords are mentioned."],"value":1},
 {"key":["hubot","hubot-ec2","List EC2 instances in Hubot"],"value":1},
 {"key":["hubot","hubot-ecs","A hubot script for manage AWS ECS cluster by ecs-cli."],"value":1},
