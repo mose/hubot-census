@@ -1410,6 +1410,7 @@
 {"key":["hubot","hubot-rackspace-monitoring","A hubot script to relay Rackspace Cloud Monitoring notifications"],"value":1},
 {"key":["hubot","hubot-radbus","RadBus API integration for Hubot"],"value":1},
 {"key":["hubot","hubot-rae","Define words in spanish using hubot"],"value":1},
+{"key":["hubot","hubot-rail-belgium","Belgian train information for Hubot"],"value":1},
 {"key":["hubot","hubot-rain-alert","Hubot script to alert whenever it starts and stops raining, in realtime."],"value":1},
 {"key":["hubot","hubot-rainforest","Hubot plugin that interfaces with Rainforest (https://www.rainforestqa.com/)"],"value":1},
 {"key":["hubot","hubot-random-dino","Post a random dino!"],"value":1},
