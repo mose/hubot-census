@@ -7391,7 +7391,7 @@
   },
   "20170423": {
     "created": 4,
-    "modified": 5,
+    "modified": 4,
     "releases": 7
   },
   "20170424": {
@@ -8480,6 +8480,11 @@
     "releases": 3
   },
   "20180101": {
+    "created": 0,
+    "modified": 1,
+    "releases": 1
+  },
+  "20180102": {
     "created": 0,
     "modified": 1,
     "releases": 1
