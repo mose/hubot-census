@@ -7305,9 +7305,9 @@
     "releases": 11
   },
   "20170404": {
-    "created": 3,
+    "created": 2,
     "modified": 2,
-    "releases": 11
+    "releases": 9
   },
   "20170405": {
     "created": 1,
@@ -7320,9 +7320,9 @@
     "releases": 4
   },
   "20170407": {
-    "created": 1,
+    "created": 0,
     "modified": 3,
-    "releases": 39
+    "releases": 38
   },
   "20170408": {
     "created": 2,
@@ -7365,14 +7365,14 @@
     "releases": 5
   },
   "20170418": {
-    "created": 2,
+    "created": 1,
     "modified": 2,
-    "releases": 5
+    "releases": 3
   },
   "20170419": {
     "created": 1,
     "modified": 1,
-    "releases": 6
+    "releases": 5
   },
   "20170420": {
     "created": 0,
@@ -7380,9 +7380,9 @@
     "releases": 7
   },
   "20170421": {
-    "created": 2,
-    "modified": 4,
-    "releases": 15
+    "created": 1,
+    "modified": 3,
+    "releases": 14
   },
   "20170422": {
     "created": 1,
@@ -7390,9 +7390,9 @@
     "releases": 4
   },
   "20170423": {
-    "created": 4,
-    "modified": 4,
-    "releases": 7
+    "created": 1,
+    "modified": 2,
+    "releases": 4
   },
   "20170424": {
     "created": 0,
@@ -7400,14 +7400,14 @@
     "releases": 1
   },
   "20170425": {
-    "created": 3,
-    "modified": 3,
-    "releases": 5
+    "created": 1,
+    "modified": 1,
+    "releases": 2
   },
   "20170426": {
     "created": 0,
-    "modified": 4,
-    "releases": 5
+    "modified": 1,
+    "releases": 2
   },
   "20170427": {
     "created": 1,
@@ -7416,8 +7416,8 @@
   },
   "20170428": {
     "created": 1,
-    "modified": 1,
-    "releases": 5
+    "modified": 0,
+    "releases": 4
   },
   "20170429": {
     "created": 1,
@@ -8371,7 +8371,7 @@
   },
   "20171205": {
     "created": 1,
-    "modified": 10,
+    "modified": 9,
     "releases": 6
   },
   "20171206": {
@@ -8471,7 +8471,7 @@
   },
   "20171230": {
     "created": 2,
-    "modified": 4,
+    "modified": 3,
     "releases": 12
   },
   "20171231": {
@@ -8491,7 +8491,12 @@
   },
   "20180103": {
     "created": 1,
-    "modified": 3,
-    "releases": 3
+    "modified": 4,
+    "releases": 4
+  },
+  "20180104": {
+    "created": 0,
+    "modified": 1,
+    "releases": 1
   }
 }
