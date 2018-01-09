@@ -7175,6 +7175,15 @@
     ]
   },
   {
+    "id": "hubot-doughboysimageme",
+    "created": "2018-01-09T04:58:52.322Z",
+    "modified": "2018-01-09T04:58:52.322Z",
+    "latest": "2018-01-09T04:58:52.322Z",
+    "releases": [
+      "2018-01-09T04:58:52.322Z"
+    ]
+  },
+  {
     "id": "hubot-downloads-from-flurry",
     "created": "2014-10-19T15:10:32.334Z",
     "modified": "2014-10-19T15:10:32.334Z",
