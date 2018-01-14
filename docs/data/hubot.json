@@ -2144,6 +2144,7 @@
 {"key":["hubot","mlbot","A hubot script that can tell you MLB scores and standings"],"value":1},
 {"key":["hubot","mock-hubot","Hubot mock library made dead simple"],"value":1},
 {"key":["hubot","mock-hubot-robot","Provides a mock robot context to enable unit testing of hubot scripts"],"value":1},
+{"key":["hubot","mubot-mine","Allow Mubot/Hubot to mine you money."],"value":1},
 {"key":["hubot","natural-language-commander","A tool for connecting natural language commands with callbacks."],"value":1},
 {"key":["hubot","nbot","A simple helpful robot for your Company"],"value":1},
 {"key":["hubot","nbot-scripts","Allows you to opt in to a variety of scripts"],"value":1},
