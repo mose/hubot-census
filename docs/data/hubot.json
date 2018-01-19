@@ -1022,6 +1022,7 @@
 {"key":["hubot","hubot-kitsu","A Hubot script to get anime data from kitsu"],"value":1},
 {"key":["hubot","hubot-kittengif","A hubot script for when you need a kitten gif."],"value":1},
 {"key":["hubot","hubot-knockknock","Keep track of who is working and when."],"value":1},
+{"key":["hubot","hubot-knockout","A hubot script used for keeping track of point in the game of knockout"],"value":1},
 {"key":["hubot","hubot-kodi","Talk to Kodi/XBMC with hubot"],"value":1},
 {"key":["hubot","hubot-kodi-espeak","Speaks any text using Kodi and eSpeak"],"value":1},
 {"key":["hubot","hubot-kodibot","Control Kodi media player with Hubot"],"value":1},
