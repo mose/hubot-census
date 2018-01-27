@@ -546,6 +546,7 @@
 {"key":["hubot","hubot-es-logger","A plugin for Hubot to log channels activity on ElasticSearch, and serve logs via web."],"value":1},
 {"key":["hubot","hubot-esa","A Hubot script handling webhooks and retrieving info from esa: https://esa.io"],"value":1},
 {"key":["hubot","hubot-espn","Get live sports data for most major sports leagues!"],"value":1},
+{"key":["hubot","hubot-estimate","Async private voting for estimation meetings"],"value":1},
 {"key":["hubot","hubot-etcd","A Hubot script for querying an Etcd cluster"],"value":1},
 {"key":["hubot","hubot-etcd-brain","Hubot brain that uses etcd"],"value":1},
 {"key":["hubot","hubot-ethereum","Hubot script for ethereum network."],"value":1},
