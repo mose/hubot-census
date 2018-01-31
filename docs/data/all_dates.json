@@ -6596,7 +6596,7 @@
   },
   "20161110": {
     "created": 2,
-    "modified": 2,
+    "modified": 1,
     "releases": 9
   },
   "20161111": {
@@ -8605,6 +8605,11 @@
     "releases": 2
   },
   "20180130": {
+    "created": 0,
+    "modified": 1,
+    "releases": 1
+  },
+  "20180131": {
     "created": 0,
     "modified": 1,
     "releases": 1
