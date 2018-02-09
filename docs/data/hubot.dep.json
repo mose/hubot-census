@@ -1,4 +1,4 @@
-{"total_rows":1581068,"offset":694316,"rows":[
+{"total_rows":1581327,"offset":694417,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -70,7 +70,6 @@
 {"id":"hubot-slack-reaction-example","key":["hubot","^2.19.0","hubot-slack-reaction-example"],"value":1},
 {"id":"hubot-slack-reaction-spam","key":["hubot","^2.19.0","hubot-slack-reaction-spam"],"value":1},
 {"id":"hubot-spatial","key":["hubot","^2.19.0","hubot-spatial"],"value":1},
-{"id":"hubot-stride","key":["hubot","^2.19.0","hubot-stride"],"value":1},
 {"id":"lilybotbrian","key":["hubot","^2.19.0","lilybotbrian"],"value":1},
 {"id":"npmtathicomatest","key":["hubot","^2.19.0","npmtathicomatest"],"value":1},
 {"id":"oden-boy","key":["hubot","^2.19.0","oden-boy"],"value":1},
