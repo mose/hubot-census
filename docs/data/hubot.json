@@ -3701,6 +3701,7 @@
 {"key":["hubot-scripts","hubot-visitor","A hubot script to alert incoming incoming visitors"],"value":1},
 {"key":["hubot-scripts","hubot-vividcortex","Vividcortex script for Hubot"],"value":1},
 {"key":["hubot-scripts","hubot-vmfarms","A hubot script to interact with the VM Farms API"],"value":1},
+{"key":["hubot-scripts","hubot-voting","A voting script for hubot"],"value":1},
 {"key":["hubot-scripts","hubot-vsphere-commands","A hubot script that allows users to interact with the vsphere-rest-api developed by quickjp2 on github."],"value":1},
 {"key":["hubot-scripts","hubot-vsts-slack","A Hubot script for Visual Studio Team Services integration tailored for Slack"],"value":1},
 {"key":["hubot-scripts","hubot-vtr-scripts","A set of scripts to make Hubot a Digital Forensics & Incident Response sidekick"],"value":1},
