@@ -345,6 +345,7 @@
 {"key":["hubot","hubot-cna-travisci-slack","Travis CI Hubot module for Slack"],"value":1},
 {"key":["hubot","hubot-cne","A hubot script to get fuel price in Chile from cne api"],"value":1},
 {"key":["hubot","hubot-code-review","A Hubot script for GitHub code review on Slack"],"value":1},
+{"key":["hubot","hubot-code-review-flowdock","A Hubot script for GitHub code review on Flowdock"],"value":1},
 {"key":["hubot","hubot-codenames","Suggesting solid gold, business appropriate names since 2013. Using Clive Murray's excellent http://codenames.clivemurray.com/"],"value":1},
 {"key":["hubot","hubot-codingexcuses","A Hubot plugin to get a random excuse from Coding Excuses."],"value":1},
 {"key":["hubot","hubot-codinglove","A script for Hubot to display meme from thecodinglove and lesjoiesducode."],"value":1},
