@@ -358,6 +358,7 @@
 {"key":["hubot","hubot-combat",null],"value":1},
 {"key":["hubot","hubot-command-blacklist","Middleware and commands for blacklisting specific commands in certain rooms or channels"],"value":1},
 {"key":["hubot","hubot-command-counter","Counts the number of times each interceptor is matched"],"value":1},
+{"key":["hubot","hubot-command-mapper","Helps with mapping tools and commands to hubot"],"value":1},
 {"key":["hubot","hubot-commands","A library to produce parseable commands for hubot"],"value":1},
 {"key":["hubot","hubot-commit-streak","A hubot script that shows who has the longest commit streak in your org"],"value":1},
 {"key":["hubot","hubot-commitstrip","CommitStrip commands for Hubot"],"value":1},
