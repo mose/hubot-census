@@ -8701,12 +8701,17 @@
   },
   "20180220": {
     "created": 1,
-    "modified": 2,
-    "releases": 5
+    "modified": 1,
+    "releases": 4
   },
   "20180221": {
     "created": 0,
     "modified": 3,
-    "releases": 8
+    "releases": 9
+  },
+  "20180222": {
+    "created": 0,
+    "modified": 1,
+    "releases": 2
   }
 }
