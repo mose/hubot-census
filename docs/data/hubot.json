@@ -831,6 +831,7 @@
 {"key":["hubot","hubot-hipchat-20160810","A HipChat adapter for Hubot"],"value":1},
 {"key":["hubot","hubot-hipchat-andrewmccall","A Fork of the HipChat adapter for Hubot"],"value":1},
 {"key":["hubot","hubot-hipchat-beta","A Hipchat adapter for Hubot"],"value":1},
+{"key":["hubot","hubot-hipchat-dbeard","A HipChat adapter for Hubot"],"value":1},
 {"key":["hubot","hubot-hipchat-emoticons","Query Hipchat emoticons within Hubot"],"value":1},
 {"key":["hubot","hubot-hipchat-hs","A Hipchat adapter for Hubot"],"value":1},
 {"key":["hubot","hubot-hipchat-latest","A HipChat adapter for Hubot"],"value":1},
