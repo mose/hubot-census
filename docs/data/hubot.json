@@ -543,6 +543,7 @@
 {"key":["hubot","hubot-encinitas-ale-house","Hubot script to fetch beers on tap from the Encinitas Ale House"],"value":1},
 {"key":["hubot","hubot-encourage","Robot is very encouraging"],"value":1},
 {"key":["hubot","hubot-enhance","A hubot script that enhances images"],"value":1},
+{"key":["hubot","hubot-entrypoint","Launch Hubot with require()"],"value":1},
 {"key":["hubot","hubot-env","Hubot manages environment variables in process.env and redis"],"value":1},
 {"key":["hubot","hubot-environment","hubot-environment"],"value":1},
 {"key":["hubot","hubot-epichal","Turn hubot into a conversational partner with EpicHAL"],"value":1},
