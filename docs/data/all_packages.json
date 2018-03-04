@@ -31066,6 +31066,15 @@
     ]
   },
   {
+    "id": "local-hubot-artifactory",
+    "created": "2018-03-04T12:39:21.123Z",
+    "modified": "2018-03-04T12:39:21.856Z",
+    "latest": "2018-03-04T12:39:21.173Z",
+    "releases": [
+      "2018-03-04T12:39:21.856Z"
+    ]
+  },
+  {
     "id": "ltcla-hubot-trivia-game",
     "created": "2016-11-11T16:51:56.218Z",
     "modified": "2016-12-18T02:51:18.318Z",

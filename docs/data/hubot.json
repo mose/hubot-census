@@ -2155,6 +2155,7 @@
 {"key":["hubot","klaranet","A simple helpful robot for IM tipping and marking and payments"],"value":1},
 {"key":["hubot","lisb-hubot","A simple helpful robot for your Company"],"value":1},
 {"key":["hubot","lisb-hubot-redis-brain","A hubot script to persist hubot's brain using redis"],"value":1},
+{"key":["hubot","local-hubot-artifactory","allows access to artifactory from your chatbot"],"value":1},
 {"key":["hubot","ltcla-hubot-trivia-game","Learn To Code LA trivia bot"],"value":1},
 {"key":["hubot","mattermost-slashbot","A Hubot script that parses slash commands from Mattermost, forwards them to the bot, then formats the bot response to be slash command friendly."],"value":1},
 {"key":["hubot","midbot-wikipedia","A forked Hubot script for interacting with Wikipedia's API with Mid's personality."],"value":1},
