@@ -1811,6 +1811,7 @@
 {"key":["hubot","hubot-strawpoll","Create Strawpolls with Hubot"],"value":1},
 {"key":["hubot","hubot-strawpollz","Adds strawpoll functionality to hubot"],"value":1},
 {"key":["hubot","hubot-streetfood","Hubot script for locating food carts"],"value":1},
+{"key":["hubot","hubot-stride","Hubot adapter for Atlassian Stride"],"value":1},
 {"key":["hubot","hubot-subreddit","Replies with a random post from a subreddit"],"value":1},
 {"key":["hubot","hubot-subreddit-linker","Replies to subreddit references with full links"],"value":1},
 {"key":["hubot","hubot-substitute","Regex substitute script for hubot"],"value":1},
