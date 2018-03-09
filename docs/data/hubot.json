@@ -766,6 +766,8 @@
 {"key":["hubot","hubot-googledrive-search","Google drive search for hubot!"],"value":1},
 {"key":["hubot","hubot-googlurl","A hubot script to shorten urls through googl"],"value":1},
 {"key":["hubot","hubot-gopher","Domicile the Gopher to Hubot"],"value":1},
+{"key":["hubot","hubot-gosu","A HUBOT adapter for GOSU"],"value":1},
+{"key":["hubot","hubot-gosu-hi","Hello script for GOSU"],"value":1},
 {"key":["hubot","hubot-gotomeeting","hubot script to manage GoToMeeting meetings"],"value":1},
 {"key":["hubot","hubot-grafana","Query Grafana dashboards"],"value":1},
 {"key":["hubot","hubot-grafana-slack","Query Grafana dashboards"],"value":1},
