@@ -1402,6 +1402,7 @@
 {"key":["hubot","hubot-pull-review","Assigns and notifies reviewers for GitHub pull requests"],"value":1},
 {"key":["hubot","hubot-pulsar","Hubot script to deploy via Pulsar REST API"],"value":1},
 {"key":["hubot","hubot-pun-me","Puns on demand"],"value":1},
+{"key":["hubot","hubot-pungoblin","Pun Goblin.  Puns are the lowest form of humor.  Perfect for goblins!"],"value":1},
 {"key":["hubot","hubot-punjar","A Hubot plugin for forcing people to put $1 into a jar for a shitty pun."],"value":1},
 {"key":["hubot","hubot-puppet-utils","Hubot scripts for interacting with your Puppet infrastructure"],"value":1},
 {"key":["hubot","hubot-purecloud","Purecloud adapter for Hubot"],"value":1},
