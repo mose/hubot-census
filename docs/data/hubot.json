@@ -1649,6 +1649,7 @@
 {"key":["hubot","hubot-shaun-flirt-script","A hubot script that does the things"],"value":1},
 {"key":["hubot","hubot-shaun-script","A hubot script that does the things"],"value":1},
 {"key":["hubot","hubot-shell","Execute shell commands with your hubot."],"value":1},
+{"key":["hubot","hubot-shellish","Slightly fancier Shell adapter for Hubot development"],"value":1},
 {"key":["hubot","hubot-shibame","Shibame is the hubot script for improving the quality of your life with shibas pics"],"value":1},
 {"key":["hubot","hubot-shinchoku","Hubot-scripts returns shinchoku image"],"value":1},
 {"key":["hubot","hubot-shinchoku-dou","Hubot-scripts returns shinchoku image"],"value":1},
