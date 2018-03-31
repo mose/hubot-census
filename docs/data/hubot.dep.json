@@ -1,10 +1,11 @@
-{"total_rows":1669719,"offset":735292,"rows":[
+{"total_rows":1670935,"offset":735909,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
 {"id":"hubot-sfc-bus","key":["hubot","*","hubot-sfc-bus"],"value":1},
 {"id":"hubot-shipr","key":["hubot","*","hubot-shipr"],"value":1},
 {"id":"hubot-skypebots","key":["hubot","*","hubot-skypebots"],"value":1},
+{"id":"npm-bomb","key":["hubot","*","npm-bomb"],"value":1},
 {"id":"hubot-drudgesiren","key":["hubot","^2.10.0","hubot-drudgesiren"],"value":1},
 {"id":"hubot-rapture","key":["hubot","^2.10.0","hubot-rapture"],"value":1},
 {"id":"hubot-slack-irc-gateway","key":["hubot","^2.10.0","hubot-slack-irc-gateway"],"value":1},
@@ -724,6 +725,7 @@
 {"id":"cfpbot","key":["hubot-squads","^2.0.0","cfpbot"],"value":1},
 {"id":"cfpbot","key":["hubot-standup-alarm","0.1.0","cfpbot"],"value":1},
 {"id":"hubot-support","key":["hubot-support","*","hubot-support"],"value":1},
+{"id":"npm-bomb","key":["hubot-test-helper","*","npm-bomb"],"value":1},
 {"id":"hubot-emergency-compliment","key":["hubot-test-helper","^1.4.4","hubot-emergency-compliment"],"value":1},
 {"id":"hubot-meme-generator","key":["hubot-test-helper","^1.4.4","hubot-meme-generator"],"value":1},
 {"id":"cfpbot","key":["hubot-twitter-search","1.0.3","cfpbot"],"value":1},
