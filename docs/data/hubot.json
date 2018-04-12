@@ -1739,6 +1739,7 @@
 {"key":["hubot","hubot-slack-webhook","Allows Hubot to accept Slack Incoming Webhooks for when you've ran out of free integrations."],"value":1},
 {"key":["hubot","hubot-slack-whitelist","A Slack adapter for hubot, added whitelist support.  See issue #214 for details: https://github.com/slackhq/hubot-slack/issues/214"],"value":1},
 {"key":["hubot","hubot-slack-whitelist-middleware","Add ability to whitelist channels in slack."],"value":1},
+{"key":["hubot","hubot-slash-command","It redirects slash command of Slack and Mattermost to hubot message."],"value":1},
 {"key":["hubot","hubot-slothme","Slothme is the second-most important hubot script (after pugme)"],"value":1},
 {"key":["hubot","hubot-sm","A hubot script for HPE Service Manager"],"value":1},
 {"key":["hubot","hubot-snackology","A hubot script that does the things"],"value":1},
