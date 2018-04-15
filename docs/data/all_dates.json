@@ -8926,12 +8926,17 @@
   },
   "20180414": {
     "created": 0,
-    "modified": 3,
-    "releases": 8
+    "modified": 2,
+    "releases": 7
   },
   "20180415": {
     "created": 0,
     "modified": 1,
     "releases": 1
+  },
+  "20180416": {
+    "created": 0,
+    "modified": 1,
+    "releases": 3
   }
 }
