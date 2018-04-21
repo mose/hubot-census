@@ -5256,6 +5256,15 @@
     ]
   },
   {
+    "id": "hubot-cmbot-script",
+    "created": "2018-04-21T08:41:05.725Z",
+    "modified": "2018-04-21T08:41:11.294Z",
+    "latest": "2018-04-21T08:41:05.827Z",
+    "releases": [
+      "2018-04-21T08:41:11.294Z"
+    ]
+  },
+  {
     "id": "hubot-cna-travisci-slack",
     "created": "2015-09-18T15:10:07.461Z",
     "modified": "2015-09-18T18:51:40.509Z",
