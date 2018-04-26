@@ -2439,6 +2439,7 @@
 {"key":["hubot-script","hubot-thecodinglove","Display meme from \"The coding love <http://thecodinglove.com>\""],"value":1},
 {"key":["hubot-script","hubot-toggl","A Hubot script to add Toggl integration to your company's chat"],"value":1},
 {"key":["hubot-script","hubot-trying","do or do not do"],"value":1},
+{"key":["hubot-script","hubot-web-push-notifications","Allow users to subscribe to Web Push notifications, notifying them of mentions while away"],"value":1},
 {"key":["hubot-script","hubot-where","where is hubot ?"],"value":1},
 {"key":["hubot-script","hubot-youtube-feed","Posts new videos from specified users to slack when they are uploaded"],"value":1},
 {"key":["hubot-script","jobot-brain-file","Hubot utility that save the brain on the filesystem"],"value":1},
