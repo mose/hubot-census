@@ -522,6 +522,7 @@
 {"key":["hubot","hubot-ec2-more","List EC2 instances in Hubot"],"value":1},
 {"key":["hubot","hubot-ecs","A hubot script for manage AWS ECS cluster by ecs-cli."],"value":1},
 {"key":["hubot","hubot-ecs-cli","A hubot script for manage AWS ECS cluster by ecs-cli."],"value":1},
+{"key":["hubot","hubot-ecs-shipper","Perform ECS Deployments using Hubot and Lambda"],"value":1},
 {"key":["hubot","hubot-ector","Hubot's ECTOR script package (learning chatterbot)"],"value":1},
 {"key":["hubot","hubot-ectorx","Hubot's ECTOR script package (learning chatterbot)"],"value":1},
 {"key":["hubot","hubot-ehwha","Provides link to Professor Farnsworth saying 'Eh wha?'"],"value":1},
