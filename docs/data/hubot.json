@@ -1240,6 +1240,7 @@
 {"key":["hubot","hubot-napirajz","Allows your hubot to search on kereso.napirajz.hu"],"value":1},
 {"key":["hubot","hubot-nashville-news","Retrieves top local news from Nashville media outlet RSS feeds."],"value":1},
 {"key":["hubot","hubot-nationalrail","Get National Rail live departure information"],"value":1},
+{"key":["hubot","hubot-natural","Hubot Rocket.Chat Chatbot with Natural Language Processing"],"value":1},
 {"key":["hubot","hubot-naver-map","A hubot script that returns a static map with link from naver place search api."],"value":1},
 {"key":["hubot","hubot-nba","A hubot script for NBA stats"],"value":1},
 {"key":["hubot","hubot-neige","Hubot ski snow report"],"value":1},
