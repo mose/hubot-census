@@ -3127,6 +3127,7 @@
 {"key":["hubot-scripts","hubot-kodi-espeak","Speaks any text using Kodi and eSpeak"],"value":1},
 {"key":["hubot-scripts","hubot-kodibot","Control Kodi media player with Hubot"],"value":1},
 {"key":["hubot-scripts","hubot-konomin-bot","THE IDOLM@STER MILLION LIVE! Konomi Baba's bot (Japanese)"],"value":1},
+{"key":["hubot-scripts","hubot-kredits","Kosmos Kredits functionality for chat bots"],"value":1},
 {"key":["hubot-scripts","hubot-kubernetes","Hubot Kubernetes integration"],"value":1},
 {"key":["hubot-scripts","hubot-kudos","A hubot script for giving people kudos"],"value":1},
 {"key":["hubot-scripts","hubot-kvv","A hubot script that accesses http://live.kvv.de/"],"value":1},

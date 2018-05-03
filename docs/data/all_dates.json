@@ -7455,9 +7455,9 @@
     "releases": 1
   },
   "20170506": {
-    "created": 1,
+    "created": 2,
     "modified": 2,
-    "releases": 7
+    "releases": 8
   },
   "20170507": {
     "created": 0,
@@ -7487,7 +7487,12 @@
   "20170512": {
     "created": 6,
     "modified": 6,
-    "releases": 20
+    "releases": 25
+  },
+  "20170513": {
+    "created": 0,
+    "modified": 0,
+    "releases": 4
   },
   "20170515": {
     "created": 0,
@@ -7617,7 +7622,7 @@
   "20170609": {
     "created": 3,
     "modified": 3,
-    "releases": 7
+    "releases": 8
   },
   "20170610": {
     "created": 1,
@@ -7772,7 +7777,7 @@
   "20170712": {
     "created": 0,
     "modified": 2,
-    "releases": 4
+    "releases": 5
   },
   "20170713": {
     "created": 2,
@@ -9008,5 +9013,10 @@
     "created": 1,
     "modified": 4,
     "releases": 4
+  },
+  "20180503": {
+    "created": 0,
+    "modified": 1,
+    "releases": 2
   }
 }
