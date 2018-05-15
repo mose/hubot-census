@@ -9056,10 +9056,15 @@
   },
   "20180512": {
     "created": 1,
-    "modified": 2,
-    "releases": 9
+    "modified": 1,
+    "releases": 8
   },
   "20180514": {
+    "created": 0,
+    "modified": 1,
+    "releases": 2
+  },
+  "20180515": {
     "created": 0,
     "modified": 1,
     "releases": 2
