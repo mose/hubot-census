@@ -1032,6 +1032,7 @@
 {"key":["hubot","hubot-karma","A simple karam tracking script for hubot."],"value":1},
 {"key":["hubot","hubot-karma-classic","A Hubot script to track arbitrary karma"],"value":1},
 {"key":["hubot","hubot-karma-simple","A hubot script for adding or removing karma"],"value":1},
+{"key":["hubot","hubot-karma-whitespace","A Hubot script to track arbitrary karma"],"value":1},
 {"key":["hubot","hubot-karmabot","Simple bot to keep track of karma."],"value":1},
 {"key":["hubot","hubot-kdhs-stand-up","A Script that collect User an perform a ready message"],"value":1},
 {"key":["hubot","hubot-keepalive","A script that has Hubot periodically message itself so connections (namely Slack) don't time out"],"value":1},
