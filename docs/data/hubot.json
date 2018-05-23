@@ -1852,6 +1852,7 @@
 {"key":["hubot","hubot-swimlane","A hubot script for automation and operations using Swimlane"],"value":1},
 {"key":["hubot","hubot-symphony","Hubot adapter for Symphony"],"value":1},
 {"key":["hubot","hubot-synapse","Uses redis pub-sub to allow Hubot to incorporate scripts written in other languages."],"value":1},
+{"key":["hubot","hubot-synologychat","Hubot Synology Chat Adapter"],"value":1},
 {"key":["hubot","hubot-syslogd","flexible monitoring, aggregation and formatting of logs by using hubot as syslog server"],"value":1},
 {"key":["hubot","hubot-systemzoo-welcome","A hubot script for welcoming new users"],"value":1},
 {"key":["hubot","hubot-tabelog","A script to pick up a restaurant"],"value":1},
