@@ -10362,6 +10362,15 @@
     ]
   },
   {
+    "id": "hubot-github-name-slack-id-map",
+    "created": "2018-06-03T02:04:51.903Z",
+    "modified": "2018-06-03T02:04:54.910Z",
+    "latest": "2018-06-03T02:04:52.043Z",
+    "releases": [
+      "2018-06-03T02:04:54.910Z"
+    ]
+  },
+  {
     "id": "hubot-github-notifier",
     "created": "2015-12-08T18:36:18.265Z",
     "modified": "2016-08-31T15:37:15.702Z",
