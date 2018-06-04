@@ -7114,6 +7114,15 @@
     ]
   },
   {
+    "id": "hubot-discord-permissions",
+    "created": "2018-06-03T21:41:24.084Z",
+    "modified": "2018-06-03T21:41:26.991Z",
+    "latest": "2018-06-03T21:41:24.186Z",
+    "releases": [
+      "2018-06-03T21:41:26.991Z"
+    ]
+  },
+  {
     "id": "hubot-discordant",
     "created": "2016-05-28T03:42:28.782Z",
     "modified": "2016-05-28T03:42:28.782Z",
