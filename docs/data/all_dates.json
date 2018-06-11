@@ -7926,7 +7926,7 @@
   },
   "20170822": {
     "created": 1,
-    "modified": 2,
+    "modified": 1,
     "releases": 6
   },
   "20170823": {
@@ -9147,6 +9147,11 @@
   "20180609": {
     "created": 0,
     "modified": 2,
+    "releases": 1
+  },
+  "20180611": {
+    "created": 0,
+    "modified": 1,
     "releases": 1
   }
 }
