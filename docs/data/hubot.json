@@ -641,6 +641,7 @@
 {"key":["hubot","hubot-foursquare-lunch","Use Foursquare API to pick a lunch spot"],"value":1},
 {"key":["hubot","hubot-frank","Creates a HTTP endpoint to tell hubot what to do.  Like Frank Underwood."],"value":1},
 {"key":["hubot","hubot-freddie","Rocket.Chat's Hubot for Federation with matrix.org"],"value":1},
+{"key":["hubot","hubot-freetacos","A hubot script for giving free tacos"],"value":1},
 {"key":["hubot","hubot-freight","Freight integration for Hubot"],"value":1},
 {"key":["hubot","hubot-freshdesk","A hubot script to integrate freshdesk with chat rooms."],"value":1},
 {"key":["hubot","hubot-freshdesk-ticket-notifier","A hubot script for tracking any webhook events from the Freskdesk support tool"],"value":1},

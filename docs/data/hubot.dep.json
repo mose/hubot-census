@@ -1,4 +1,4 @@
-{"total_rows":1795308,"offset":790515,"rows":[
+{"total_rows":1795460,"offset":790589,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -718,6 +718,7 @@
 {"id":"hubot-slack-jenkins-chatops","key":["hubot-slack","^4.4.0","hubot-slack-jenkins-chatops"],"value":1},
 {"id":"web-pr-bot","key":["hubot-slack","^4.4.0","web-pr-bot"],"value":1},
 {"id":"web-pr-hubot","key":["hubot-slack","^4.4.0","web-pr-hubot"],"value":1},
+{"id":"hubot-freetacos","key":["hubot-slack",">= 4.5.1","hubot-freetacos"],"value":1},
 {"id":"klaranet","key":["hubot-slack","~2.2.0","klaranet"],"value":1},
 {"id":"hubot-hotbot","key":["hubot-slack","2.0.3","hubot-hotbot"],"value":1},
 {"id":"hubot-orders-k","key":["hubot-slack","2.0.3","hubot-orders-k"],"value":1},
