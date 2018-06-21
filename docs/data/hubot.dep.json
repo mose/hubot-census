@@ -1,4 +1,4 @@
-{"total_rows":1801530,"offset":793155,"rows":[
+{"total_rows":1801909,"offset":793292,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -62,6 +62,7 @@
 {"id":"hubot-growl","key":["hubot","^2.19.0","hubot-growl"],"value":1},
 {"id":"hubot-hangoutschat","key":["hubot","^2.19.0","hubot-hangoutschat"],"value":1},
 {"id":"hubot-hangoutschat-gae","key":["hubot","^2.19.0","hubot-hangoutschat-gae"],"value":1},
+{"id":"hubot-hangoutschat-rooms","key":["hubot","^2.19.0","hubot-hangoutschat-rooms"],"value":1},
 {"id":"hubot-jira-lc","key":["hubot","^2.19.0","hubot-jira-lc"],"value":1},
 {"id":"hubot-line-messaging","key":["hubot","^2.19.0","hubot-line-messaging"],"value":1},
 {"id":"hubot-line-messaging-api","key":["hubot","^2.19.0","hubot-line-messaging-api"],"value":1},
