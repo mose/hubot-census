@@ -1998,6 +1998,7 @@
 {"key":["hubot","hubot-unpkg","Get package's unpkg url of latest version"],"value":1},
 {"key":["hubot","hubot-untappd","Integrate hubot with untappd"],"value":1},
 {"key":["hubot","hubot-untappd-friends","Get the latest checkins from your Untappd friends."],"value":1},
+{"key":["hubot","hubot-uptime","Reports how long hubot has been up."],"value":1},
 {"key":["hubot","hubot-uptime-robot","A hubot script that shows the status of all Uptime Robot Monitors"],"value":1},
 {"key":["hubot","hubot-uptimerobot","A hubot script to list/add monitors for the Uptime Robot service."],"value":1},
 {"key":["hubot","hubot-urban","A Hubot script to define terms via Urban Dictionary"],"value":1},
