@@ -1,4 +1,4 @@
-{"total_rows":1807443,"offset":795785,"rows":[
+{"total_rows":1807773,"offset":795950,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -713,6 +713,7 @@
 {"id":"hubot-slack-reaction-example","key":["hubot-slack","^4.2.0","hubot-slack-reaction-example"],"value":1},
 {"id":"hubot-slack-reaction","key":["hubot-slack","^4.2.1","hubot-slack-reaction"],"value":1},
 {"id":"hubot-slack-reaction-spam","key":["hubot-slack","^4.2.1","hubot-slack-reaction-spam"],"value":1},
+{"id":"hubot-dockerhub-integration","key":["hubot-slack","^4.2.2","hubot-dockerhub-integration"],"value":1},
 {"id":"oden-boy","key":["hubot-slack","^4.2.2","oden-boy"],"value":1},
 {"id":"botsito","key":["hubot-slack","^4.3.1","botsito"],"value":1},
 {"id":"hubot-coprhd","key":["hubot-slack","^4.3.1","hubot-coprhd"],"value":1},

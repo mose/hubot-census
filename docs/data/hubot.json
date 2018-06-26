@@ -638,6 +638,7 @@
 {"key":["hubot","hubot-forecast","A hubot script to alert for inclement weather"],"value":1},
 {"key":["hubot","hubot-forecast-schedule","A hubot script for showing Forecast schedules"],"value":1},
 {"key":["hubot","hubot-forecastio","A Hubot Script that looks up weather forcast data from forcast.io with geocoding courtesy of Google Maps"],"value":1},
+{"key":["hubot","hubot-formatted-crypto","Displays user-requested crypto prices in Slack using clean, formatted messages."],"value":1},
 {"key":["hubot","hubot-fortune-ja","Returns fortune information from http://fortune.yahoo.co.jp/12astro/ranking.html"],"value":1},
 {"key":["hubot","hubot-foursquare-locator","Get last checkin of your bot's friends"],"value":1},
 {"key":["hubot","hubot-foursquare-lunch","Use Foursquare API to pick a lunch spot"],"value":1},
