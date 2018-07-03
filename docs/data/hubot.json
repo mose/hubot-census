@@ -2228,6 +2228,7 @@
 {"key":["hubot","posicon","Return a random contextually valid hipchat emoticon"],"value":1},
 {"key":["hubot","pull-review","Assign pull request reviewers intelligently"],"value":1},
 {"key":["hubot","qqbot","A robot lives on webQQ"],"value":1},
+{"key":["hubot","qqrobot","SmartQQ robot powered by node.js"],"value":1},
 {"key":["hubot","quizz","A Simple Quizz"],"value":1},
 {"key":["hubot","recurry","recurring REST call scheduler (instead of cron+flock)"],"value":1},
 {"key":["hubot","redbot-redmine-notifier","Notifies about Redmine creating and updating tickets"],"value":1},
