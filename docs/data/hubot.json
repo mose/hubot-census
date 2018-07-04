@@ -3118,6 +3118,7 @@
 {"key":["hubot-scripts","hubot-interactive-messages","A hubot wrapper for node-slack-interactive-messages"],"value":1},
 {"key":["hubot-scripts","hubot-introduce","Introduction of users"],"value":1},
 {"key":["hubot-scripts","hubot-invite-slack","A simple script for Hubot to send invitations and track inviters"],"value":1},
+{"key":["hubot-scripts","hubot-ipfs","Hubut plugin for pinning files to IPFS"],"value":1},
 {"key":["hubot-scripts","hubot-irail","Get information about trains in Belgium from hubot"],"value":1},
 {"key":["hubot-scripts","hubot-irasutoya","Search irasuto from irasutoya"],"value":1},
 {"key":["hubot-scripts","hubot-irish-rail","A Hubot script for querying the Irish Rail API"],"value":1},
