@@ -2241,6 +2241,7 @@
 {"key":["hubot","saihubot","Client side chatb ot that can be embedded in any web site"],"value":1},
 {"key":["hubot","sam.ai-slack","A Slack adapter for hubot"],"value":1},
 {"key":["hubot","say-with-hubot","Allows to you write anonymously via hubot."],"value":1},
+{"key":["hubot","sbot-conversation","A conversation session implement for hubot"],"value":1},
 {"key":["hubot","serenize-hubot","Fetch interesting questions from serenize.me"],"value":1},
 {"key":["hubot","shy-hubot-aws","Hubot masters aws commands"],"value":1},
 {"key":["hubot","slack-terminalize","Module to help build a custom command-line vocabulary for your bot"],"value":1},
