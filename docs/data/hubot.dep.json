@@ -1,4 +1,4 @@
-{"total_rows":1823375,"offset":802907,"rows":[
+{"total_rows":1823894,"offset":803141,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -64,6 +64,7 @@
 {"id":"hubot-hangoutschat-gae","key":["hubot","^2.19.0","hubot-hangoutschat-gae"],"value":1},
 {"id":"hubot-hangoutschat-rooms","key":["hubot","^2.19.0","hubot-hangoutschat-rooms"],"value":1},
 {"id":"hubot-jira-lc","key":["hubot","^2.19.0","hubot-jira-lc"],"value":1},
+{"id":"hubot-kokoro.io","key":["hubot","^2.19.0","hubot-kokoro.io"],"value":1},
 {"id":"hubot-line-messaging","key":["hubot","^2.19.0","hubot-line-messaging"],"value":1},
 {"id":"hubot-line-messaging-api","key":["hubot","^2.19.0","hubot-line-messaging-api"],"value":1},
 {"id":"hubot-mattermost-adapter","key":["hubot","^2.19.0","hubot-mattermost-adapter"],"value":1},
