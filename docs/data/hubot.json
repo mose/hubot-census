@@ -485,6 +485,7 @@
 {"key":["hubot","hubot-dockerhub-webhook","Docker Hub to Hubot bridge. Be notified on Hubot when your image is pushed to Docker Hub"],"value":1},
 {"key":["hubot","hubot-docomochatter","chat with your hubot via Docomo Zatsudan-Taiwa(雑談対話) API"],"value":1},
 {"key":["hubot","hubot-doge","Creates a Doge image with your phrase"],"value":1},
+{"key":["hubot","hubot-doge-utility-functions","Multi-purpose hubot utility functions needed as a dependency in the doge-bot (a robust hubot housing several programs)"],"value":1},
 {"key":["hubot","hubot-dogecoin","Hubot script for tipping with Dogecoin."],"value":1},
 {"key":["hubot","hubot-dogeme","Wow. Such Doge"],"value":1},
 {"key":["hubot","hubot-dokku-hook","Get Dokku deploy notification"],"value":1},
