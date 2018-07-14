@@ -1,4 +1,4 @@
-{"total_rows":1835464,"offset":808499,"rows":[
+{"total_rows":1835769,"offset":808617,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -287,6 +287,7 @@
 {"id":"web-pr-bot","key":["hubot-diagnostics","0.0.2","web-pr-bot"],"value":1},
 {"id":"web-pr-hubot","key":["hubot-diagnostics","0.0.2","web-pr-hubot"],"value":1},
 {"id":"lisb-hubot","key":["hubot-direct","0.1.x","lisb-hubot"],"value":1},
+{"id":"hubot-internal-public-channels","key":["hubot-doge-utility-functions","^1.3.1","hubot-internal-public-channels"],"value":1},
 {"id":"hubot-as-syncbot","key":["hubot-duplicate","^0.1.3","hubot-as-syncbot"],"value":1},
 {"id":"cfpbot","key":["hubot-eavesdrop","^2.0.0","cfpbot"],"value":1},
 {"id":"cloudbot","key":["hubot-emit-tweeter","latest","cloudbot"],"value":1},
