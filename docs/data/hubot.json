@@ -2239,6 +2239,7 @@
 {"key":["hubot","riiidbot-brain","A tiny brain for riiidbot scripts."],"value":1},
 {"key":["hubot","robot-spec","customize robot events hear and response. apply robot and spec."],"value":1},
 {"key":["hubot","rollout-control-client","Client for rollout_control - https://github.com/hired/rollout_control"],"value":1},
+{"key":["hubot","sactive-bot","An extensible chat bot framework."],"value":1},
 {"key":["hubot","saihubot","Client side chatb ot that can be embedded in any web site"],"value":1},
 {"key":["hubot","sam.ai-slack","A Slack adapter for hubot"],"value":1},
 {"key":["hubot","say-with-hubot","Allows to you write anonymously via hubot."],"value":1},
