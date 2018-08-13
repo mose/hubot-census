@@ -9406,12 +9406,17 @@
   },
   "20180811": {
     "created": 2,
-    "modified": 7,
-    "releases": 12
+    "modified": 6,
+    "releases": 11
   },
   "20180812": {
     "created": 0,
     "modified": 3,
     "releases": 7
+  },
+  "20180813": {
+    "created": 0,
+    "modified": 1,
+    "releases": 2
   }
 }
