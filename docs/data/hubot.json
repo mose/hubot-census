@@ -2122,6 +2122,7 @@
 {"key":["hubot","hubot-wow-token","Get the wow token prices"],"value":1},
 {"key":["hubot","hubot-wowit","A hubot script that provides wows"],"value":1},
 {"key":["hubot","hubot-wpgtransit","Hubot plugin to interface with Winnipeg Transit OpenData API"],"value":1},
+{"key":["hubot","hubot-wrms","Hubot plugin for WRMS"],"value":1},
 {"key":["hubot","hubot-wttr","Asks for current weather to Wttr.in and show the result"],"value":1},
 {"key":["hubot","hubot-wunderground","Get the latest weather from Weather Underground"],"value":1},
 {"key":["hubot","hubot-wwts","What would Todd say? Ask Toddbot! "],"value":1},
