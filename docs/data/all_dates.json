@@ -9436,17 +9436,22 @@
   },
   "20180817": {
     "created": 0,
-    "modified": 1,
-    "releases": 2
+    "modified": 0,
+    "releases": 1
   },
   "20180818": {
     "created": 2,
-    "modified": 4,
-    "releases": 6
+    "modified": 3,
+    "releases": 5
   },
   "20180819": {
     "created": 2,
     "modified": 3,
     "releases": 9
+  },
+  "20180821": {
+    "created": 0,
+    "modified": 2,
+    "releases": 4
   }
 }

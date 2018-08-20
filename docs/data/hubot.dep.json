@@ -1,4 +1,4 @@
-{"total_rows":1893790,"offset":835334,"rows":[
+{"total_rows":1894115,"offset":835452,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -291,7 +291,7 @@
 {"id":"lisb-hubot","key":["hubot-direct","0.1.x","lisb-hubot"],"value":1},
 {"id":"hubot-internal-public-channels","key":["hubot-doge-utility-functions","^1.3.1","hubot-internal-public-channels"],"value":1},
 {"id":"hubot-channel-welcome","key":["hubot-doge-utility-functions","^1.4.2","hubot-channel-welcome"],"value":1},
-{"id":"hubot-makerdao-cdp-alert","key":["hubot-doge-utility-functions","^1.4.4","hubot-makerdao-cdp-alert"],"value":1},
+{"id":"hubot-makerdao-cdp-alert","key":["hubot-doge-utility-functions","^2.0.1","hubot-makerdao-cdp-alert"],"value":1},
 {"id":"hubot-as-syncbot","key":["hubot-duplicate","^0.1.3","hubot-as-syncbot"],"value":1},
 {"id":"cfpbot","key":["hubot-eavesdrop","^2.0.0","cfpbot"],"value":1},
 {"id":"cloudbot","key":["hubot-emit-tweeter","latest","cloudbot"],"value":1},
