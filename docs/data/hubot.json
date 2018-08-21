@@ -1187,6 +1187,7 @@
 {"key":["hubot","hubot-matteruser","Mattermost Adapter"],"value":1},
 {"key":["hubot","hubot-matteruser-es6","[![npm package][npm-badge]][npm]"],"value":1},
 {"key":["hubot","hubot-matteruser-uc","Mattermost Adapter"],"value":1},
+{"key":["hubot","hubot-matteruser5","Mattermost Adapter"],"value":1},
 {"key":["hubot","hubot-maxim","Hubot Maxim Script"],"value":1},
 {"key":["hubot","hubot-mayer-imbiss","Hubot script package for quick access to the Tageskarte of the second Metzger on the Venloer Straße"],"value":1},
 {"key":["hubot","hubot-mcrcon","A Minecraft RCON script for Hubot"],"value":1},
