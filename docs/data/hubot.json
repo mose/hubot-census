@@ -25,6 +25,7 @@
 {"key":["hubot","dorfbot-youtube","A hubot script for searching YouTube"],"value":1},
 {"key":["hubot","eslint-config-hubot-js","Eslint config for hubot.js projects"],"value":1},
 {"key":["hubot","fido-comics","A hubot script that does funny things"],"value":1},
+{"key":["hubot","file-listener-hubot-slack","A Slack adapter for hubot"],"value":1},
 {"key":["hubot","fitebot","conceptual warfare (with voting)"],"value":1},
 {"key":["hubot","flowdock-utils","A set of Flowdock utilities for hubot"],"value":1},
 {"key":["hubot","fubot","provoker of good emotions"],"value":1},
