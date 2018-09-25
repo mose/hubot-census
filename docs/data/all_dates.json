@@ -6561,7 +6561,7 @@
   },
   "20161103": {
     "created": 2,
-    "modified": 3,
+    "modified": 2,
     "releases": 7
   },
   "20161104": {
@@ -6901,7 +6901,7 @@
   },
   "20170112": {
     "created": 4,
-    "modified": 2,
+    "modified": 1,
     "releases": 8
   },
   "20170113": {
@@ -7576,7 +7576,7 @@
   },
   "20170531": {
     "created": 3,
-    "modified": 3,
+    "modified": 2,
     "releases": 7
   },
   "20170601": {
@@ -8071,7 +8071,7 @@
   },
   "20170925": {
     "created": 2,
-    "modified": 3,
+    "modified": 2,
     "releases": 8
   },
   "20170926": {
@@ -8206,7 +8206,7 @@
   },
   "20171023": {
     "created": 1,
-    "modified": 1,
+    "modified": 0,
     "releases": 2
   },
   "20171024": {
@@ -9166,7 +9166,7 @@
   },
   "20180614": {
     "created": 0,
-    "modified": 2,
+    "modified": 1,
     "releases": 3
   },
   "20180615": {
@@ -9261,7 +9261,7 @@
   },
   "20180707": {
     "created": 0,
-    "modified": 4,
+    "modified": 0,
     "releases": 1
   },
   "20180709": {
@@ -9446,8 +9446,8 @@
   },
   "20180821": {
     "created": 1,
-    "modified": 4,
-    "releases": 6
+    "modified": 1,
+    "releases": 4
   },
   "20180822": {
     "created": 0,
@@ -9466,8 +9466,8 @@
   },
   "20180825": {
     "created": 0,
-    "modified": 4,
-    "releases": 7
+    "modified": 3,
+    "releases": 6
   },
   "20180826": {
     "created": 0,
@@ -9496,8 +9496,8 @@
   },
   "20180831": {
     "created": 0,
-    "modified": 3,
-    "releases": 10
+    "modified": 1,
+    "releases": 8
   },
   "20180901": {
     "created": 0,
@@ -9506,12 +9506,92 @@
   },
   "20180904": {
     "created": 1,
-    "modified": 3,
-    "releases": 13
+    "modified": 2,
+    "releases": 12
   },
   "20180905": {
     "created": 1,
     "modified": 2,
     "releases": 3
+  },
+  "20180906": {
+    "created": 0,
+    "modified": 1,
+    "releases": 2
+  },
+  "20180907": {
+    "created": 0,
+    "modified": 0,
+    "releases": 1
+  },
+  "20180908": {
+    "created": 0,
+    "modified": 0,
+    "releases": 1
+  },
+  "20180909": {
+    "created": 0,
+    "modified": 1,
+    "releases": 1
+  },
+  "20180911": {
+    "created": 2,
+    "modified": 0,
+    "releases": 0
+  },
+  "20180912": {
+    "created": 0,
+    "modified": 1,
+    "releases": 4
+  },
+  "20180913": {
+    "created": 0,
+    "modified": 4,
+    "releases": 0
+  },
+  "20180914": {
+    "created": 0,
+    "modified": 0,
+    "releases": 6
+  },
+  "20180915": {
+    "created": 0,
+    "modified": 2,
+    "releases": 3
+  },
+  "20180917": {
+    "created": 0,
+    "modified": 2,
+    "releases": 8
+  },
+  "20180918": {
+    "created": 0,
+    "modified": 1,
+    "releases": 2
+  },
+  "20180919": {
+    "created": 0,
+    "modified": 0,
+    "releases": 2
+  },
+  "20180920": {
+    "created": 0,
+    "modified": 2,
+    "releases": 7
+  },
+  "20180922": {
+    "created": 0,
+    "modified": 2,
+    "releases": 2
+  },
+  "20180924": {
+    "created": 2,
+    "modified": 2,
+    "releases": 2
+  },
+  "20180925": {
+    "created": 0,
+    "modified": 3,
+    "releases": 4
   }
 }
