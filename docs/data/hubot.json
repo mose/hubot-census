@@ -1398,6 +1398,7 @@
 {"key":["hubot","hubot-plivo","A Plivo adapter for Hubot."],"value":1},
 {"key":["hubot","hubot-plotw","Collaborative spotify playlists for hubot."],"value":1},
 {"key":["hubot","hubot-plugdj","A Hubot adapter for plug.dj."],"value":1},
+{"key":["hubot","hubot-plurk-adapter","plurk's adapter for hubot"],"value":1},
 {"key":["hubot","hubot-plusplus","A hubot script for adding or removing points"],"value":1},
 {"key":["hubot","hubot-plusplus-improved","A hubot script for adding or removing points"],"value":1},
 {"key":["hubot","hubot-plusplus-plus","An improved hubot script for adding or removing points"],"value":1},
