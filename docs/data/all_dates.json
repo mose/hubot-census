@@ -9626,7 +9626,12 @@
   },
   "20181003": {
     "created": 0,
+    "modified": 0,
+    "releases": 2
+  },
+  "20181004": {
+    "created": 0,
     "modified": 1,
-    "releases": 3
+    "releases": 2
   }
 }
