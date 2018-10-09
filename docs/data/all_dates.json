@@ -7101,7 +7101,7 @@
   },
   "20170222": {
     "created": 2,
-    "modified": 8,
+    "modified": 7,
     "releases": 48
   },
   "20170223": {
@@ -9491,7 +9491,7 @@
   },
   "20180830": {
     "created": 0,
-    "modified": 3,
+    "modified": 2,
     "releases": 5
   },
   "20180831": {
@@ -9656,7 +9656,12 @@
   },
   "20181009": {
     "created": 0,
+    "modified": 2,
+    "releases": 1
+  },
+  "20181010": {
+    "created": 0,
     "modified": 1,
-    "releases": 0
+    "releases": 1
   }
 }
