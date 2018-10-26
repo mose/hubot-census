@@ -1,4 +1,4 @@
-{"total_rows":1992712,"offset":879736,"rows":[
+{"total_rows":1993386,"offset":880011,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
