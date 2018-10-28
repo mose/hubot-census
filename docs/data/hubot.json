@@ -1721,6 +1721,7 @@
 {"key":["hubot","hubot-shuzo","Hubot-scripts returns Shuzo image"],"value":1},
 {"key":["hubot","hubot-shy","A hubot script for shy users."],"value":1},
 {"key":["hubot","hubot-signal","Signal hubot adapter"],"value":1},
+{"key":["hubot","hubot-signal-service","A Hubot adapter for the Signal messaging service."],"value":1},
 {"key":["hubot","hubot-sii","Script de hubot para crear boleta de honorarios"],"value":1},
 {"key":["hubot","hubot-silly","A collection of random and silly Hubot plugins."],"value":1},
 {"key":["hubot","hubot-simple-greeting","A simple hubot script that gives your robot some friendly greetings"],"value":1},
