@@ -1605,6 +1605,7 @@
 {"key":["hubot","hubot-rss-reader","Hubot RSS Reader"],"value":1},
 {"key":["hubot","hubot-rss-reader-fixed","Hubot RSS Reader"],"value":1},
 {"key":["hubot","hubot-rss-rolf","Hubot RSS Reader"],"value":1},
+{"key":["hubot","hubot-rss-rolf-richterp","Hubot RSS Reader"],"value":1},
 {"key":["hubot","hubot-rsvp","A hubot script that does the things"],"value":1},
 {"key":["hubot","hubot-rsvp-test","A hubot script that does the things"],"value":1},
 {"key":["hubot","hubot-rt-links","recognize request tracker issue numbers and respond with their urls"],"value":1},
