@@ -1058,7 +1058,6 @@
 {"key":["hubot","hubot-kanjo","Summarize AWS Billing for Hubot"],"value":1},
 {"key":["hubot","hubot-kanye","Gives quotes from Kanye West."],"value":1},
 {"key":["hubot","hubot-kaputskey","A hubot script to clean out after de-provisioning"],"value":1},
-{"key":["hubot","hubot-karika","Hubot icin random karikatur goruntuleyici."],"value":1},
 {"key":["hubot","hubot-karma","A simple karam tracking script for hubot."],"value":1},
 {"key":["hubot","hubot-karma-classic","A Hubot script to track arbitrary karma"],"value":1},
 {"key":["hubot","hubot-karma-simple","A hubot script for adding or removing karma"],"value":1},
