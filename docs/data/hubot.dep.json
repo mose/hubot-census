@@ -1,4 +1,4 @@
-{"total_rows":2009081,"offset":887261,"rows":[
+{"total_rows":2009460,"offset":887448,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -99,6 +99,7 @@
 {"id":"hubot-wechat-better","key":["hubot","^3.1.1","hubot-wechat-better"],"value":1},
 {"id":"makerdao-cdp-alert-telegram","key":["hubot","^3.1.1","makerdao-cdp-alert-telegram"],"value":1},
 {"id":"rc-data-processor","key":["hubot","^3.1.1","rc-data-processor"],"value":1},
+{"id":"tascal-bot","key":["hubot","^3.1.1","tascal-bot"],"value":1},
 {"id":"bruno_hubot-scripts","key":["hubot",">= 2.0.4","bruno_hubot-scripts"],"value":1},
 {"id":"hubot-hipchat-emoticons","key":["hubot",">= 2.10.0","hubot-hipchat-emoticons"],"value":1},
 {"id":"hubot-pagerduty","key":["hubot",">= 2.3.0","hubot-pagerduty"],"value":1},
