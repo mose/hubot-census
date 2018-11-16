@@ -2898,6 +2898,15 @@
     ]
   },
   {
+    "id": "hubot-bamboo-goodmorning",
+    "created": "2018-11-16T09:05:20.557Z",
+    "modified": "2018-11-16T09:05:25.184Z",
+    "latest": "2018-11-16T09:05:20.719Z",
+    "releases": [
+      "2018-11-16T09:05:25.184Z"
+    ]
+  },
+  {
     "id": "hubot-bamboo-pr",
     "created": "2015-03-16T06:58:51.946Z",
     "modified": "2015-07-30T08:10:55.593Z",
