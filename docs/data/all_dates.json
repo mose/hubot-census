@@ -9856,7 +9856,12 @@
   },
   "20181129": {
     "created": 2,
-    "modified": 3,
-    "releases": 6
+    "modified": 2,
+    "releases": 5
+  },
+  "20181130": {
+    "created": 0,
+    "modified": 1,
+    "releases": 2
   }
 }
