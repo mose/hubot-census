@@ -1,4 +1,4 @@
-{"total_rows":2053737,"offset":907770,"rows":[
+{"total_rows":2054139,"offset":907991,"rows":[
 {"id":"hubot-prmanager","key":["hubot"," >= 2.4.0","hubot-prmanager"],"value":1},
 {"id":"hubot-12horoscopes","key":["hubot","*","hubot-12horoscopes"],"value":1},
 {"id":"hubot-coveralls","key":["hubot","*","hubot-coveralls"],"value":1},
@@ -218,6 +218,7 @@
 {"id":"hubot-recast-ai","key":["hubot","2.x","hubot-recast-ai"],"value":1},
 {"id":"hubot-remotestorage-logger","key":["hubot","2.x","hubot-remotestorage-logger"],"value":1},
 {"id":"hubot-watcher","key":["hubot","2.x","hubot-watcher"],"value":1},
+{"id":"hubot-chat-testing","key":["hubot","3","hubot-chat-testing"],"value":1},
 {"id":"hubot-rocketchat","key":["hubot","3","hubot-rocketchat"],"value":1},
 {"id":"xbot","key":["hubot","git://github.com/hubotio/hubot.git#73fc2bbc1c08de7722d47eacc237d2e081a29c36","xbot"],"value":1},
 {"id":"cfpbot","key":["hubot","github:cfpb/hubot","cfpbot"],"value":1},
@@ -767,6 +768,7 @@
 {"id":"npm-bomb","key":["hubot-test-helper","*","npm-bomb"],"value":1},
 {"id":"hubot-emergency-compliment","key":["hubot-test-helper","^1.4.4","hubot-emergency-compliment"],"value":1},
 {"id":"hubot-meme-generator","key":["hubot-test-helper","^1.4.4","hubot-meme-generator"],"value":1},
+{"id":"hubot-chat-testing","key":["hubot-test-helper","^1.8.1","hubot-chat-testing"],"value":1},
 {"id":"nocurse","key":["hubot-test-helper","^1.9.0","nocurse"],"value":1},
 {"id":"cfpbot","key":["hubot-twitter-search","1.0.3","cfpbot"],"value":1},
 {"id":"hubot-front","key":["hubot-utility","^0.0.5","hubot-front"],"value":1},
