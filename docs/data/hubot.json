@@ -2095,6 +2095,7 @@
 {"key":["hubot","hubot-websocket","A websocket Adapter for Hubot"],"value":1},
 {"key":["hubot","hubot-wechat","A hubot adapter for wechat public platform"],"value":1},
 {"key":["hubot","hubot-wechat-better","Hubot adapter for wechat"],"value":1},
+{"key":["hubot","hubot-wechatwork","A Hubot adapater for Wechat Work (企业微信)"],"value":1},
 {"key":["hubot","hubot-weirdmeetup-blog","Hubot WeirdMeetup Blog Reader"],"value":1},
 {"key":["hubot","hubot-weixin","This is wechat/weixin adapter for hubot"],"value":1},
 {"key":["hubot","hubot-weixin-2","This is wechat/weixin adapter for hubot"],"value":1},
