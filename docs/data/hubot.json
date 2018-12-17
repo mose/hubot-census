@@ -478,6 +478,7 @@
 {"key":["hubot","hubot-diceware","A hubot script for generate passphrases using the diceware method"],"value":1},
 {"key":["hubot","hubot-digweb","A hubot script that interacts with digweb."],"value":1},
 {"key":["hubot","hubot-dinosaur-comics","A Hubot script for retrieving Dinosaur Comics (www.qwantz.com)"],"value":1},
+{"key":["hubot","hubot-discobot","Hubot Adapter for discord.js"],"value":1},
 {"key":["hubot","hubot-discord-ng","Hubot adapter for discord"],"value":1},
 {"key":["hubot","hubot-discord-permissions","Print the permissions given to your Discord Hubot"],"value":1},
 {"key":["hubot","hubot-discordant","a hubot adapter for discord"],"value":1},
