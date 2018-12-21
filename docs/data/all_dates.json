@@ -7506,7 +7506,7 @@
   },
   "20170517": {
     "created": 0,
-    "modified": 1,
+    "modified": 0,
     "releases": 1
   },
   "20170518": {
@@ -9616,7 +9616,7 @@
   },
   "20181002": {
     "created": 0,
-    "modified": 1,
+    "modified": 0,
     "releases": 1
   },
   "20181003": {
@@ -9916,6 +9916,16 @@
   },
   "20181217": {
     "created": 1,
+    "modified": 1,
+    "releases": 1
+  },
+  "20181221": {
+    "created": 0,
+    "modified": 1,
+    "releases": 0
+  },
+  "20181222": {
+    "created": 0,
     "modified": 1,
     "releases": 1
   }
