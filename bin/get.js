@@ -5,7 +5,6 @@ const moment = require('moment');
 const fs = require("fs");
 
 const storedir = 'docs/data/';
-// const storedir = 'tmp/';
 const refresh = (process.argv[2] === 'refresh');
 
 const getList = (name, refresh) => {
@@ -13,6 +12,7 @@ const getList = (name, refresh) => {
   const searchPackages = (callback, offset = 0) => {
     const url = `https://registry.npmjs.org/-/v1/search?text=hubot&from=${offset}&size=200`
     request(url, (error, res, body) => {
+      if (error) throw error
       let full = JSON.parse(body)
       callback(full)
     })
@@ -27,7 +27,6 @@ const getList = (name, refresh) => {
           for (let offset = 0; offset <= full.total; offset += 200) {
             calls.push(new Promise((call, err) => searchPackages(call, offset)))
           }
-          console.log(calls)
           Promise.allSettled(calls)
             .then((data, err) => {
               let filteredData = data.flatMap(
@@ -46,21 +45,21 @@ const getList = (name, refresh) => {
         })
       } else {
         console.log(filename)
-        res(JSON.parse(fs.readFileSync(filename, 'utf8')));
+        callback(JSON.parse(fs.readFileSync(filename, 'utf8')));
       }
     })
   })
 }
 
-const getPackage = function (pack, refresh) {
+const getPackage = function (key, refresh) {
   const filename = storedir + 'packages/' + key.replace("/", "_") + '.json';
 
   return new Promise((res, err) => {
     fs.stat(filename, function (err, stat) {
       if (refresh || err !== null) {
-        console.log(key)
         const uri = `https://registry.npmjs.org//${key}`
         request(uri, function (error, response, body) {
+          console.log(key)
           if (error) throw error
           fs.writeFileSync(filename, body);
           res(JSON.parse(body));
