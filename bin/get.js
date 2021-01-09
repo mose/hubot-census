@@ -1,77 +1,76 @@
 'use strict';
 
 const request = require("request");
-const qs = require('querystring');
 const moment = require('moment');
-const util = require('util');
-const path = require('path');
 const fs = require("fs");
 
 const storedir = 'docs/data/';
 // const storedir = 'tmp/';
 const refresh = (process.argv[2] === 'refresh');
 
-const getList = function (key, refresh) {
-  const filename = storedir + key + '.json';
-  return new Promise( (res, err) => {
-    fs.stat(filename, function(err, stat) {
-      if (refresh || err !== null) {
-        const uri = 'https://skimdb.npmjs.com/registry/_design/app/_view/byKeyword?' + 
-          qs.stringify(
-            {
-              startkey: '["' + key + '"]',
-              endkey: '["' + key + ',{}"]',
-              group_level: 3
-            }
-          )
-        request(uri, function(error, response, body) {
-          fs.writeFileSync(filename, body);
-          res(JSON.parse(body));
-        });
-      } else {
-        res(JSON.parse(fs.readFileSync(filename, 'utf8')));
-      }  
-    });
-  });
-}
-
-const getDep = function(key, refresh) {
-  const filename = storedir + key + '.dep.json';
-  return new Promise( (res, err) => {
-    fs.stat(filename, function(err, stat) {
-      if (refresh || err !== null) {
-        const uri = 'https://skimdb.npmjs.com/registry/_design/app/_view/dependentVersions?' + 
-          qs.stringify(
-            {
-              startkey: '["' + key + '"]',
-              endkey: '["' + key + ',{}"]',
-              reduce: 'false'
-            }
-          )
-        request(uri, function(error, response, body) {
-          fs.writeFileSync(filename, body);
-          res(JSON.parse(body));
-        });
-      } else {
-        res(JSON.parse(fs.readFileSync(filename, 'utf8')));
-      }
-    });
-  });
-}
-
-const getPackage = function(pack, refresh) {
-  const filename = storedir + 'packages/' + pack + '.json';
-  return new Promise( (res, err) => {
-    if (refresh) {
-      const uri = 'https://skimdb.npmjs.com/registry/' + qs.escape(pack);
-      request(uri, function(error, response, body) {
-        fs.writeFileSync(filename, body);
-        res(JSON.parse(body));
-      });
-    } else {
-      res(JSON.parse(fs.readFileSync(filename, 'utf8')));
+const getList = (name, refresh) => {
+    const filename = storedir + name + '.list.json';
+    const searchPackages = (callback, offset = 0) => {
+        const url = `https://registry.npmjs.org/-/v1/search?text=hubot&from=${offset}&size=200`
+        request(url, (error, res, body) => {
+            let full = JSON.parse(body)
+            callback(full)
+        })
     }
-  });
+
+    return new Promise((callback, err) => {
+        fs.stat(filename, function (err, stat) {
+            if (refresh || err !== null) {
+                searchPackages((full) => {
+                    let results = full.objects
+                    let calls = []
+                    for (let offset = 0; offset <= full.total; offset += 200) {
+                        calls.push(new Promise((call, err) => searchPackages(call, offset)))
+                    }
+                    console.log(calls)
+                    Promise.allSettled(calls)
+                        .then((data, err) => {
+                            let filteredData = data.flatMap(
+                                (value) => value.value.objects
+                            ).filter(
+                                (dep) => {
+                                    let keywords = dep.package.keywords || []
+                                    return dep.package.name.indexOf('hubot') >= 0
+                                        || keywords.includes('hubot')
+                                        || keywords.includes('hubot-scripts')
+                                }
+                            )
+                            fs.writeFileSync(filename, JSON.stringify(filteredData));
+                            callback(filteredData)
+                        })
+                })
+            } else {
+                console.log(filename)
+                res(JSON.parse(fs.readFileSync(filename, 'utf8')));
+            }
+        })
+    })
+}
+
+const getPackage = function (pack, refresh) {
+    const filename = storedir + 'packages/' + key.replace("/", "_") + '.json';
+
+    return new Promise((res, err) => {
+        fs.stat(filename, function (err, stat) {
+            if (refresh || err !== null) {
+                console.log(key)
+                const uri = `https://registry.npmjs.org//${key}`
+                request(uri, function (error, response, body) {
+                    if (error) throw error
+                    fs.writeFileSync(filename, body);
+                    res(JSON.parse(body));
+                });
+            } else {
+                console.log(key)
+                res(JSON.parse(fs.readFileSync(filename, 'utf8')));
+            }
+        });
+    });
 }
 
 const makeAuthors = function(data) {
@@ -102,14 +101,12 @@ const makeAuthors = function(data) {
 }
 
 Promise.all([
-  getList('hubot', refresh),
-  getDep('hubot', refresh)
+    getList('hubot', refresh)
 ]).then((data) => {
-  const hubot = data[0].rows.map(i => i.key[1]);
-  const hubotdep = data[1].rows.map(i => i.id);
-  return hubot.concat(hubotdep).sort().filter(function(el, i, a) {
-    return i == a.indexOf(el);
-  });
+    const hubot = data[0].map(i => i.package.name);
+    return hubot.sort().filter(function (el, i, a) {
+        return i == a.indexOf(el);
+    });
 }).then((data) => {
   const processed = data.map(it => getPackage(it, refresh));
   return Promise.all(processed);
