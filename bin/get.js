@@ -9,71 +9,71 @@ const storedir = 'docs/data/';
 const refresh = (process.argv[2] === 'refresh');
 
 const getList = (name, refresh) => {
-    const filename = storedir + name + '.list.json';
-    const searchPackages = (callback, offset = 0) => {
-        const url = `https://registry.npmjs.org/-/v1/search?text=hubot&from=${offset}&size=200`
-        request(url, (error, res, body) => {
-            let full = JSON.parse(body)
-            callback(full)
-        })
-    }
-
-    return new Promise((callback, err) => {
-        fs.stat(filename, function (err, stat) {
-            if (refresh || err !== null) {
-                searchPackages((full) => {
-                    let results = full.objects
-                    let calls = []
-                    for (let offset = 0; offset <= full.total; offset += 200) {
-                        calls.push(new Promise((call, err) => searchPackages(call, offset)))
-                    }
-                    console.log(calls)
-                    Promise.allSettled(calls)
-                        .then((data, err) => {
-                            let filteredData = data.flatMap(
-                                (value) => value.value.objects
-                            ).filter(
-                                (dep) => {
-                                    let keywords = dep.package.keywords || []
-                                    return dep.package.name.indexOf('hubot') >= 0
-                                        || keywords.includes('hubot')
-                                        || keywords.includes('hubot-scripts')
-                                }
-                            )
-                            fs.writeFileSync(filename, JSON.stringify(filteredData));
-                            callback(filteredData)
-                        })
-                })
-            } else {
-                console.log(filename)
-                res(JSON.parse(fs.readFileSync(filename, 'utf8')));
-            }
-        })
+  const filename = storedir + name + '.list.json';
+  const searchPackages = (callback, offset = 0) => {
+    const url = `https://registry.npmjs.org/-/v1/search?text=hubot&from=${offset}&size=200`
+    request(url, (error, res, body) => {
+      let full = JSON.parse(body)
+      callback(full)
     })
+  }
+
+  return new Promise((callback, err) => {
+    fs.stat(filename, function (err, stat) {
+      if (refresh || err !== null) {
+        searchPackages((full) => {
+          let results = full.objects
+          let calls = []
+          for (let offset = 0; offset <= full.total; offset += 200) {
+            calls.push(new Promise((call, err) => searchPackages(call, offset)))
+          }
+          console.log(calls)
+          Promise.allSettled(calls)
+            .then((data, err) => {
+              let filteredData = data.flatMap(
+                (value) => value.value.objects
+              ).filter(
+                (dep) => {
+                  let keywords = dep.package.keywords || []
+                  return dep.package.name.indexOf('hubot') >= 0
+                    || keywords.includes('hubot')
+                    || keywords.includes('hubot-scripts')
+                }
+              )
+              fs.writeFileSync(filename, JSON.stringify(filteredData));
+              callback(filteredData)
+            })
+        })
+      } else {
+        console.log(filename)
+        res(JSON.parse(fs.readFileSync(filename, 'utf8')));
+      }
+    })
+  })
 }
 
 const getPackage = function (pack, refresh) {
-    const filename = storedir + 'packages/' + key.replace("/", "_") + '.json';
+  const filename = storedir + 'packages/' + key.replace("/", "_") + '.json';
 
-    return new Promise((res, err) => {
-        fs.stat(filename, function (err, stat) {
-            if (refresh || err !== null) {
-                console.log(key)
-                const uri = `https://registry.npmjs.org//${key}`
-                request(uri, function (error, response, body) {
-                    if (error) throw error
-                    fs.writeFileSync(filename, body);
-                    res(JSON.parse(body));
-                });
-            } else {
-                console.log(key)
-                res(JSON.parse(fs.readFileSync(filename, 'utf8')));
-            }
+  return new Promise((res, err) => {
+    fs.stat(filename, function (err, stat) {
+      if (refresh || err !== null) {
+        console.log(key)
+        const uri = `https://registry.npmjs.org//${key}`
+        request(uri, function (error, response, body) {
+          if (error) throw error
+          fs.writeFileSync(filename, body);
+          res(JSON.parse(body));
         });
+      } else {
+        console.log(key)
+        res(JSON.parse(fs.readFileSync(filename, 'utf8')));
+      }
     });
+  });
 }
 
-const makeAuthors = function(data) {
+const makeAuthors = function (data) {
   let names = []
   if (data.author instanceof Object) {
     if (data.author.name) {
@@ -101,26 +101,27 @@ const makeAuthors = function(data) {
 }
 
 Promise.all([
-    getList('hubot', refresh)
+  getList('hubot', refresh)
 ]).then((data) => {
-    const hubot = data[0].map(i => i.package.name);
-    return hubot.sort().filter(function (el, i, a) {
-        return i == a.indexOf(el);
-    });
+  const hubot = data[0].map(i => i.package.name);
+  return hubot.sort().filter(function (el, i, a) {
+    return i === a.indexOf(el);
+  });
 }).then((data) => {
   const processed = data.map(it => getPackage(it, refresh));
   return Promise.all(processed);
 }).then((data) => {
-  const authorslist = data.reduce(function(acc, el) {
+  data = data.filter((value) => value.name)
+  const authorslist = data.reduce(function (acc, el) {
     acc = acc.concat(makeAuthors(el));
     return acc;
   }, []);
-  const authors = authorslist.filter((v, i, a) => a.indexOf(v) === i);;
-  const timestamps = data.map(function(val) {
+  const authors = authorslist.filter((v, i, a) => a.indexOf(v) === i);
+  const timestamps = data.map(function (val) {
     const created = val.time.created;
     const modified = val.time.modified;
     const releases = Object.keys(val.time).slice(2);
-    return { 
+    return {
       id: val.name,
       created: created,
       modified: modified,
@@ -128,11 +129,11 @@ Promise.all([
       releases: releases.map(i => val.time[i])
     };
   });
-  const bydates = timestamps.reduce(function(acc, el) {
+  const bydates = timestamps.reduce(function (acc, el) {
     try {
       const created = moment(el.created).format('YYYYMMDD');
       if (!acc[created])
-        acc[created] = { created: 0, modified: 0, releases: 0 };
+        acc[created] = {created: 0, modified: 0, releases: 0};
       acc[created].created += 1;
     } catch (e) {
       err('' + e);
@@ -140,7 +141,7 @@ Promise.all([
     try {
       const modified = moment(el.modified).format('YYYYMMDD');
       if (!acc[modified])
-        acc[modified] = { created: 0, modified: 0, releases: 0 };
+        acc[modified] = {created: 0, modified: 0, releases: 0};
       acc[modified].modified += 1;
     } catch (e) {
       err('' + e);
@@ -149,7 +150,7 @@ Promise.all([
       try {
         let releases = moment(el.releases[rel]).format('YYYYMMDD');
         if (!acc[releases])
-          acc[releases] = { created: 0, modified: 0, releases: 0 };
+          acc[releases] = {created: 0, modified: 0, releases: 0};
         acc[releases].releases += 1;
       } catch (e) {
         err('' + e);
@@ -157,11 +158,11 @@ Promise.all([
     }
     return acc;
   }, {});
-  let bymonths = timestamps.reduce(function(acc, el) {
+  let bymonths = timestamps.reduce(function (acc, el) {
     try {
       const created = moment(el.created).format('YYYYMM');
       if (!acc[created])
-        acc[created] = { created: 0, modified: 0, releases: 0 };
+        acc[created] = {created: 0, modified: 0, releases: 0};
       acc[created].created += 1;
     } catch (e) {
       err('' + e);
@@ -169,7 +170,7 @@ Promise.all([
     try {
       const modified = moment(el.modified).format('YYYYMM');
       if (!acc[modified])
-        acc[modified] = { created: 0, modified: 0, releases: 0 };
+        acc[modified] = {created: 0, modified: 0, releases: 0};
       acc[modified].modified += 1;
     } catch (e) {
       err('' + e);
@@ -178,7 +179,7 @@ Promise.all([
       try {
         let releases = moment(el.releases[rel]).format('YYYYMM');
         if (!acc[releases])
-          acc[releases] = { created: 0, modified: 0, releases: 0 };
+          acc[releases] = {created: 0, modified: 0, releases: 0};
         acc[releases].releases += 1;
       } catch (e) {
         err('' + e);
@@ -188,7 +189,6 @@ Promise.all([
   }, {});
   // need to adjust currnet month to be proprotional
   const thismonth = moment().format("YYYYMM");
-  const thisday = moment().format("D");
   const factor = moment().daysInMonth() / moment().format("D");
   bymonths[thismonth] = {
     created: Math.round(bymonths[thismonth].created * factor),
@@ -203,8 +203,8 @@ Promise.all([
   for (var month in bymonths) {
     monthstsv += month + '\t' + bymonths[month].created + '\t' + bymonths[month].modified + '\t' + bymonths[month].releases + '\n';
   }
-  return new Promise( (res, err) => {
-    const stats = { 
+  return new Promise((res, err) => {
+    const stats = {
       updated: new Date().toJSON(),
       contributors: authors.length
     };
